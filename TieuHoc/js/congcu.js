@@ -78,16 +78,19 @@ function renderNameSchool(data){
 function modalLogIn(value){
     document.getElementById('id01').style.display='block';
     valueLevel = value;
-    var titleLogInLevel = "IC3 GS6 Level " + valueLevel.toString();
+    var titleLogInLevel = "";
     var htmlModelLogIn = "";
     var colorTitleLogInLevel = "";
     if(valueLevel == 1){
+        titleLogInLevel = "Lớp 3 - IC3 GS6 Spark Level " + valueLevel.toString();
         colorTitleLogInLevel = "#994589";
     }
     else if(valueLevel == 2){
+        titleLogInLevel = "Lớp 4 - IC3 GS6 Spark Level " + valueLevel.toString();
         colorTitleLogInLevel = "#843C0C";
     }
     else{
+        titleLogInLevel = "Lớp 5 - IC3 GS6 Spark Level " + valueLevel.toString();
         colorTitleLogInLevel = "#385723";
     }
     htmlModelLogIn = "<div class=\"modal-content animate\">"
