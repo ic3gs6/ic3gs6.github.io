@@ -16,6 +16,9 @@ function init() {
     else if(urlCurrent.search("/#") != -1){
         urlCurrent = urlCurrent.substring(0,urlCurrent.search("/#"));
     }
+    else if(urlCurrent.substring(urlCurrent.length-1,urlCurrent.length) == "/"){
+        urlCurrent = urlCurrent.substring(0,urlCurrent.length-1);
+    }
 
     linkCongCuLuyenThiLevel1 = urlCurrent + "/IC3GS6LEVEL1.html";
     linkCongCuLuyenThiLevel2 = urlCurrent + "/IC3GS6LEVEL2.html";
