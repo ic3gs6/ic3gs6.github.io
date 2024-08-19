@@ -26,41 +26,46 @@ function init() {
 }
 
 function checkCookie(){
-    let sheetID = '16so5Uyf5w-UMS9NVf-4VPkiS3wC8Nu36WQwVaugzxZ8';
-    let base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;
-    let codeSchool = getCookie("CodeSchool");
-    let ls1 = getCookie("LS1");
-    let ls2 = getCookie("LS2");
-    let ls3 = getCookie("LS3");
-    let dataCheckCookie = [];
-    var sheetName = 'School_Detail';
-    //up
-    var qu_AllData = '';
-    qu_AllData = 'Select B,C,D,F,G WHERE B = \"' + codeSchool + '\" AND F = \"' + ls1 + '\" AND G = \"' + ls2 + '\" AND H = \"' + ls3 + '\"';
-    var queryAllData = encodeURIComponent(qu_AllData);
-    
-    var urlAllData = `${base}&sheet=${sheetName}&tq=${queryAllData}`;
-    fetch(urlAllData)
-    .then(res => res.text())
-    .then(rep => {                
-        const jsData = JSON.parse(rep.substr(47).slice(0, -2));
-        const colz = [];
-        jsData.table.cols.forEach((heading) => {
-            if (heading.label) {
-                colz.push(heading.label.toLowerCase().replace(/\s/g, ''));
-            }
-        })
-        jsData.table.rows.forEach((main) => {
-            const row = {};
-            colz.forEach((ele, ind) => {
-                row[ele] = (main.c[ind] != null) ? main.c[ind].v : '';
+    if(getCookie("CodeSchool").substring(0,2) == "Ti"){
+        let sheetID = '16so5Uyf5w-UMS9NVf-4VPkiS3wC8Nu36WQwVaugzxZ8';
+        let base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;
+        let codeSchool = getCookie("CodeSchool");
+        let ls1 = getCookie("LS1");
+        let ls2 = getCookie("LS2");
+        let ls3 = getCookie("LS3");
+        let dataCheckCookie = [];
+        var sheetName = 'School_Detail';
+        //up
+        var qu_AllData = '';
+        qu_AllData = 'Select B,C,D,F,G WHERE B = \"' + codeSchool + '\" AND F = \"' + ls1 + '\" AND G = \"' + ls2 + '\" AND H = \"' + ls3 + '\"';
+        var queryAllData = encodeURIComponent(qu_AllData);
+        
+        var urlAllData = `${base}&sheet=${sheetName}&tq=${queryAllData}`;
+        fetch(urlAllData)
+        .then(res => res.text())
+        .then(rep => {                
+            const jsData = JSON.parse(rep.substr(47).slice(0, -2));
+            const colz = [];
+            jsData.table.cols.forEach((heading) => {
+                if (heading.label) {
+                    colz.push(heading.label.toLowerCase().replace(/\s/g, ''));
+                }
             })
-            dataCheckCookie.push(row);
-        })
-        renderNameSchool(dataCheckCookie);        
-        return;
-    });
-    
+            jsData.table.rows.forEach((main) => {
+                const row = {};
+                colz.forEach((ele, ind) => {
+                    row[ele] = (main.c[ind] != null) ? main.c[ind].v : '';
+                })
+                dataCheckCookie.push(row);
+            })
+            renderNameSchool(dataCheckCookie);        
+            return;
+        });
+    }
+    else{
+        alert("Bạn cần chọn lại trường mình đang học!");
+        window.location.href = linkHomePage;
+    }
 }
 
 function renderNameSchool(data){    
