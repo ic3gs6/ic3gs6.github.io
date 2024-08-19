@@ -32,7 +32,6 @@ function checkCookieHome(){
     let ls3 = getCookie("LS3");
     let dataCheckCookie = [];
     var sheetName = 'School_Detail';
-    //up
     var qu_AllData = '';
     qu_AllData = 'Select B,C,D,F,G WHERE B = \"' + codeSchool + '\" AND F = \"' + ls1 + '\" AND G = \"' + ls2 + '\" AND H = \"' + ls3 + '\"';
     var queryAllData = encodeURIComponent(qu_AllData);
@@ -347,7 +346,6 @@ function renderToWebsite2(data){
     for(var count = 0; count < data.length; count++){
         typeTodo = "<button class=\"button-google-form1\" type=\"button\">"+ data[count]['nametodo'] +"</button>";
         titleTodo = "<span style=\"color:black;font-weight:bold;\">" + data[count]['title'];
-    
 
         htmlListForm = htmlListForm + "<tr "
                                     + "id=\"info" + String(count+1) + "\""
