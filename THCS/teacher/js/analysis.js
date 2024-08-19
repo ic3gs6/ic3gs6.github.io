@@ -16,6 +16,9 @@ function init() {
     else if(urlCurrent.search("/#") != -1){
         urlCurrent = urlCurrent.substring(0,urlCurrent.search("/#"));
     }
+    else if(urlCurrent.substring(urlCurrent.length-1,urlCurrent.length) == "/"){
+        urlCurrent = urlCurrent.substring(0,urlCurrent.length-1);
+    }
 
     linkCongCuLuyenThiLevel1 = urlCurrent + "/IC3GS6LEVEL1.html";
     linkCongCuLuyenThiLevel2 = urlCurrent + "/IC3GS6LEVEL2.html";
@@ -73,16 +76,19 @@ function renderNameSchool(data){
 function modalLogIn(value){
     document.getElementById('id01').style.display='block';
     valueLevel = value;
-    var titleLogInLevel = "IC3 GS6 Level " + valueLevel.toString();
+    var titleLogInLevel = "";
     var htmlModelLogIn = "";
     var colorTitleLogInLevel = "";
     if(valueLevel == 1){
+        titleLogInLevel = "Lớp 6 - IC3 GS6 Level " + valueLevel.toString();
         colorTitleLogInLevel = "#994589";
     }
     else if(valueLevel == 2){
+        titleLogInLevel = "Lớp 7 - IC3 GS6 Level " + valueLevel.toString();
         colorTitleLogInLevel = "#843C0C";
     }
     else{
+        titleLogInLevel = "Lớp 8 - IC3 GS6 Level " + valueLevel.toString();
         colorTitleLogInLevel = "#385723";
     }
     htmlModelLogIn = "<div class=\"modal-content animate\">"
