@@ -81,7 +81,7 @@ function getListClassSearch(){
   let sheetID = getCookie("LS2");
   let base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;
   lstClassSearch = [];
-  var sheetName = 'QL_GV_K7';
+  var sheetName = 'QL_GV_K4';
   var qu_AllData = 'Select A, D WHERE A = \"' + getCookie("usr") + '\"';
   var queryAllData = encodeURIComponent(qu_AllData);
   var urlAllData = `${base}&sheet=${sheetName}&tq=${queryAllData}`;
