@@ -82,7 +82,9 @@ function renderNameUsr(){
 function dataAnalysis(){
     var htmlDataAnalysis = "";
     htmlDataAnalysis = "<div><button class=\"btn-data-analysis\" onclick=\"actionDataAnalysis()\"><b>Thống Kê</b></button></div>";
+    console.log("1");
     if(getCookie("typeUserDetail") == "QL3" || getCookie("typeUserDetail") == "GV3"){
+        console.log("2");
         htmlDataAnalysis = htmlDataAnalysis + "<div><button class=\"btn-data-analysis\" style=\"margin-top:5px;\" onclick=\"actionDataAnalysisStudent()\"><b>Kết Quả Học Sinh</b></button></div>";
     }
     document.getElementById("data_analysis").innerHTML = htmlDataAnalysis;
