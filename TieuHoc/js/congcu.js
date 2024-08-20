@@ -157,7 +157,6 @@ function submit(){
         else if(valueLevel == 3){            
             sheetName = 'LogIn3';
         }
-        console.log(sheetName);
         
         var qu_AllData = 'Select A, D, G, H, I WHERE A = \"' + u + '\" AND B = \"' + p + '\"';            
         //var qu_AllData = 'Select * ';
@@ -189,7 +188,6 @@ function submit(){
                 typeUserDetail = data[2][1].toString();
                 classOfUser = data[3][1].toString();
                 uFullName = data[4][1].toString();
-                console.log(data);
                 checkLogIn();
                 checkRow = true;
             })
