@@ -158,6 +158,8 @@ function submit(){
             sheetName = 'LogIn3';
         }
         console.log(sheetName);
+        console.log(u);
+        console.log(p);
         var qu_AllData = 'Select A, D, G, H, I WHERE A = \"' + u + '\" AND B = \"' + p + '\"';            
         //var qu_AllData = 'Select * ';
         var queryAllData = encodeURIComponent(qu_AllData);
