@@ -1,1 +1,397 @@
-var _0x527148=_0x2aa2;(function(_0x4c47be,_0x3c5bea){var _0x5d4f5e=_0x2aa2,_0x336e02=_0x4c47be();while(!![]){try{var _0x3b40e8=parseInt(_0x5d4f5e(0x207))/0x1+parseInt(_0x5d4f5e(0x1cf))/0x2+parseInt(_0x5d4f5e(0x20a))/0x3+-parseInt(_0x5d4f5e(0x1b8))/0x4+-parseInt(_0x5d4f5e(0x1f1))/0x5*(-parseInt(_0x5d4f5e(0x1fb))/0x6)+-parseInt(_0x5d4f5e(0x1cb))/0x7+-parseInt(_0x5d4f5e(0x218))/0x8;if(_0x3b40e8===_0x3c5bea)break;else _0x336e02['push'](_0x336e02['shift']());}catch(_0x7f924d){_0x336e02['push'](_0x336e02['shift']());}}}(_0x4b69,0x6d53c));let linkHomePage='https://ic3gs6.github.io',data1=[],user1='',end_time1='',uFullName='',typeUserDetail='',classOfUser='',checkRow1=![],dataAll=[],tabPrevious=null,urlCurrent=window[_0x527148(0x1c1)][_0x527148(0x1f2)];window[_0x527148(0x212)]=init;function init(){var _0x2a9dd5=_0x527148;checkCookieHome(),checkCookie(),renderNameUsr(),renderLuaChonCongCu(),dataAnalysis(),logOut(),urlCurrent[_0x2a9dd5(0x217)](_0x2a9dd5(0x220))!=-0x1&&(urlCurrent=urlCurrent[_0x2a9dd5(0x21a)](0x0,urlCurrent['search'](_0x2a9dd5(0x220))-0x1));}function checkCookieHome(){var _0x54f7d6=_0x527148;let _0x426aa6='16so5Uyf5w-UMS9NVf-4VPkiS3wC8Nu36WQwVaugzxZ8',_0x55c0f5='https://docs.google.com/spreadsheets/d/'+_0x426aa6+'/gviz/tq?',_0x32c9aa=getCookie(_0x54f7d6(0x21b)),_0x24fb20=getCookie(_0x54f7d6(0x21f)),_0x3717b0=getCookie('LS2'),_0x384205=getCookie(_0x54f7d6(0x1c0)),_0x3b5cf1=[];var _0x1452d5=_0x54f7d6(0x1bd),_0xff8406='';_0xff8406=_0x54f7d6(0x210)+_0x32c9aa+_0x54f7d6(0x1c7)+_0x24fb20+'\x22\x20AND\x20G\x20=\x20\x22'+_0x3717b0+_0x54f7d6(0x1f4)+_0x384205+'\x22';var _0x36622d=encodeURIComponent(_0xff8406),_0x5a8001=_0x55c0f5+_0x54f7d6(0x1ef)+_0x1452d5+_0x54f7d6(0x1d0)+_0x36622d;fetch(_0x5a8001)[_0x54f7d6(0x1d6)](_0x25964=>_0x25964[_0x54f7d6(0x22a)]())[_0x54f7d6(0x1d6)](_0x545033=>{var _0x3ceef9=_0x54f7d6;const _0x2db057=JSON[_0x3ceef9(0x205)](_0x545033[_0x3ceef9(0x20f)](0x2f)[_0x3ceef9(0x1df)](0x0,-0x2)),_0x4710b5=[];_0x2db057[_0x3ceef9(0x1fa)]['cols'][_0x3ceef9(0x1f9)](_0x3ea9e8=>{var _0x1f4795=_0x3ceef9;_0x3ea9e8[_0x1f4795(0x203)]&&_0x4710b5[_0x1f4795(0x228)](_0x3ea9e8[_0x1f4795(0x203)][_0x1f4795(0x1bb)]()['replace'](/\s/g,''));}),_0x2db057['table']['rows'][_0x3ceef9(0x1f9)](_0x55984a=>{var _0x574cee=_0x3ceef9;const _0x5edb80={};_0x4710b5['forEach']((_0x27eebf,_0x1b2435)=>{_0x5edb80[_0x27eebf]=_0x55984a['c'][_0x1b2435]!=null?_0x55984a['c'][_0x1b2435]['v']:'';}),_0x3b5cf1[_0x574cee(0x228)](_0x5edb80);}),renderNameSchool(_0x3b5cf1);return;});}function renderNameSchool(_0x37836c){var _0x848c95=_0x527148;_0x37836c[_0x848c95(0x1ea)]==0x0?(alert('Bạn\x20cần\x20chọn\x20lại\x20trường\x20mình\x20đang\x20học!'),window[_0x848c95(0x1c1)]['href']=linkHomePage):document[_0x848c95(0x21d)](_0x848c95(0x21c))[_0x848c95(0x215)]=getCookie(_0x848c95(0x20c));}function renderNameUsr(){var _0x1fe3b2=_0x527148,_0x9edb4d=_0x1fe3b2(0x1e2)+getCookie('nameUsr');getCookie('typeUserDetail')=='K7'&&(_0x9edb4d=_0x9edb4d+_0x1fe3b2(0x1c9)+_0x1fe3b2(0x1c5)+getCookie(_0x1fe3b2(0x1f6))),document['getElementById'](_0x1fe3b2(0x1e3))['innerHTML']=_0x9edb4d;}function dataAnalysis(){var _0xe553dd=_0x527148,_0x4423bc='';_0x4423bc=_0xe553dd(0x1fe),(getCookie(_0xe553dd(0x20e))==_0xe553dd(0x221)||getCookie(_0xe553dd(0x20e))==_0xe553dd(0x1dc))&&(_0x4423bc=_0x4423bc+_0xe553dd(0x1de)),document['getElementById'](_0xe553dd(0x1d8))[_0xe553dd(0x215)]=_0x4423bc;}function _0x4b69(){var _0x4a13c5=['then','<div><button\x20class=\x22btn-select-tool\x22\x20onclick=\x22confirmRenderCongCu()\x22><b>OK</b></button></div>','data_analysis','</a>','map','value','GV7','</td>','<div><button\x20class=\x22btn-data-analysis\x22\x20style=\x22margin-top:5px;\x22\x20onclick=\x22actionDataAnalysisStudent()\x22><b>Kết\x20Quả\x20Học\x20Sinh</b></button></div>','slice','getUTCFullYear','cookie','<span\x20style=\x22color:blue;\x22>Họ\x20và\x20tên:\x20</span>','nameUsr','nametodo','split','title','<td\x20class=\x22table-data-form-real-estate-CongVu\x22\x20style=\x22text-align:center;\x22>','close','indexOf','length',')\x22>','open','LS2','<button\x20class=\x22button-google-form\x22\x20type=\x22button\x22>','&sheet=','number','209955fRdAfn','href','keys','\x22\x20AND\x20H\x20=\x20\x22','<th\x20class=\x22table-header-form-real-estate-CongVu\x22>Chủ\x20Đề</th>','classOfUser','</span></td>','<th\x20class=\x22table-header-form-real-estate-CongVu\x22>Luyện\x20Tập</th>','forEach','table','36bjUfuc','typeUserDetail=;\x20Path=/;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x20GMT;','Bạn\x20cần\x20đăng\x20nhập\x20lại\x20để\x20tiếp\x20tục\x20luyện\x20thi!','<div><button\x20class=\x22btn-data-analysis\x22\x20onclick=\x22actionDataAnalysis()\x22><b>Thống\x20Kê</b></button></div>','toString','<table\x20class=\x22table-form-real-estate-CongVu\x22>','<input\x20type=\x22radio\x22\x20id=\x22s1\x22\x20name=\x22se_tool\x22\x20value=\x22s1\x22>\x20<b><i>Luyện\x20Tập</i></b>&emsp;&ensp;','getUTCDate','label','_blank','parse','</table>','892040UlNNwB','<th\x20class=\x22table-header-form-real-estate-CongVu\x22>Thi\x20Thử</th>','<div><button\x20class=\x22btn-log-out\x22\x20onclick=\x22actionLogOut()\x22><b>Đăng\x20Xuất</b></button></div>','399573uNDOow','/analysis','NameSchool','usr','typeUserDetail','substr','Select\x20B,C,D,F,G\x20WHERE\x20B\x20=\x20\x22','CC1_LV2','onload','Chúc\x20bạn\x20luyện\x20thi\x20hiệu\x20quả!','main','innerHTML','<span\x20style=\x22color:black;font-weight:bold;\x22>','search','3111408BVHjXj','se_tool','substring','CodeSchool','name-school','getElementById','usr=;\x20Path=/;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x20GMT;','LS1','IC3GS6LEVEL2.html','QL7','cols','select-tool','getUTCMonth','<a\x20href=\x22#info','<tr\x20class=\x22table-row-form-real-estate-CongVu\x22>','replace','push','rows','text','nameUsr=;\x20Path=/;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x20GMT;','<th\x20class=\x22table-header-form-real-estate-CongVu\x22>STT</th>','3398624VVxpWG','LogIn2','classOfUser=;\x20Path=/;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x20GMT;','toLowerCase','toUTCString','School_Detail','<td\x20class=\x22table-data-form-real-estate-CongVu\x22>','https://docs.google.com/spreadsheets/d/','LS3','location','setTime','/teacher','<tr\x20','<span\x20style=\x22color:blue;\x22>Lớp:\x20</span>','currenttime','\x22\x20AND\x20F\x20=\x20\x22','log_out','<br>','id=\x22info','2315215DnJyms','/gviz/tq?','linktodo','</button>','1479908PPidAF','&tq=','\x20class=\x22table-row-form-real-estate-CongVu\x22>','\x22\x20onclick=\x22goToLink(','<input\x20type=\x22radio\x22\x20id=\x22s2\x22\x20name=\x22se_tool\x22\x20value=\x22s2\x22>\x20<b><i>Thi\x20Thử</i></b><br/>','</tr>','expires='];_0x4b69=function(){return _0x4a13c5;};return _0x4b69();}function actionDataAnalysisStudent(){var _0x1fe58d=_0x527148,_0x3b969e=urlCurrent+_0x1fe58d(0x1c3);window['open'](_0x3b969e,_0x1fe58d(0x204));}function actionDataAnalysis(){var _0x11002d=_0x527148,_0x5d0d60=urlCurrent+_0x11002d(0x20b);window[_0x11002d(0x1ec)](_0x5d0d60,_0x11002d(0x204));}function logOut(){var _0x159fc4=_0x527148,_0x4cb769='';_0x4cb769=_0x159fc4(0x209),document[_0x159fc4(0x21d)](_0x159fc4(0x1c8))['innerHTML']=_0x4cb769;}function actionLogOut(){var _0x309596=_0x527148;document[_0x309596(0x1e1)]=_0x309596(0x21e),document[_0x309596(0x1e1)]=_0x309596(0x1b6),document['cookie']=_0x309596(0x1fc),document[_0x309596(0x1e1)]=_0x309596(0x1ba),document[_0x309596(0x1e1)]='ID=;\x20Path=/;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x20GMT;',document['cookie']='STime=;\x20Path=/;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x20GMT;',window['location'][_0x309596(0x1f2)]=linkHomePage;}function checkCookie(){var _0x450f35=_0x527148;let _0x1548e5=getCookie(_0x450f35(0x1ed)),_0x1ab7a6=_0x450f35(0x1bf)+_0x1548e5+_0x450f35(0x1cc),_0x3b6733=getCookie(_0x450f35(0x20d));var _0x25ea4a=_0x450f35(0x1b9),_0x6d2822='Select\x20A,\x20D,\x20G,\x20H,\x20I\x20WHERE\x20A\x20=\x20\x22'+_0x3b6733+'\x22',_0x2180de=encodeURIComponent(_0x6d2822),_0x51bda9=_0x1ab7a6+_0x450f35(0x1ef)+_0x25ea4a+'&tq='+_0x2180de;fetch(_0x51bda9)[_0x450f35(0x1d6)](_0x28e631=>_0x28e631['text']())[_0x450f35(0x1d6)](_0x442999=>{var _0x24df5c=_0x450f35;const _0x3c3a75=JSON[_0x24df5c(0x205)](_0x442999[_0x24df5c(0x20f)](0x2f)[_0x24df5c(0x1df)](0x0,-0x2)),_0x28cbe9=[];_0x3c3a75['table'][_0x24df5c(0x222)][_0x24df5c(0x1f9)](_0xc0438f=>{var _0x32ad0d=_0x24df5c;_0xc0438f['label']&&_0x28cbe9[_0x32ad0d(0x228)](_0xc0438f['label'][_0x32ad0d(0x1bb)]()[_0x32ad0d(0x227)](/\s/g,''));}),_0x3c3a75['table'][_0x24df5c(0x229)][_0x24df5c(0x1f9)](_0xc964a8=>{var _0x3b7897=_0x24df5c;const _0x26a9d8={};_0x28cbe9[_0x3b7897(0x1f9)]((_0x276a93,_0x2e5865)=>{_0x26a9d8[_0x276a93]=_0xc964a8['c'][_0x2e5865]!=null?_0xc964a8['c'][_0x2e5865]['v']:'';}),data1=Object[_0x3b7897(0x1f3)](_0x26a9d8)[_0x3b7897(0x1da)](_0x3551df=>[_0x3551df,_0x26a9d8[_0x3551df]]),user1=data1[0x0][0x1][_0x3b7897(0x1ff)](),end_time1=data1[0x1][0x1][_0x3b7897(0x1ff)](),typeUserDetail=data1[0x2][0x1][_0x3b7897(0x1ff)](),classOfUser=data1[0x3][0x1][_0x3b7897(0x1ff)](),uFullName=data1[0x4][0x1][_0x3b7897(0x1ff)](),checkLogIn1(_0x3b6733),checkRow1=!![];}),checkRow1==![]&&checkLogIn1(_0x3b6733);});}function _0x2aa2(_0x202a69,_0x446368){var _0x4b6925=_0x4b69();return _0x2aa2=function(_0x2aa236,_0xb73468){_0x2aa236=_0x2aa236-0x1b6;var _0x16503b=_0x4b6925[_0x2aa236];return _0x16503b;},_0x2aa2(_0x202a69,_0x446368);}function checkLogIn1(_0xfde525){var _0x325b12=_0x527148,_0x484faf=new Date();if(user1==_0xfde525){if(_0x484faf['getUTCFullYear']()>Number(end_time1[_0x325b12(0x1df)](0x5,0x9)))backToLogInPage();else{if(_0x484faf[_0x325b12(0x1e0)]()==Number(end_time1[_0x325b12(0x1df)](0x5,0x9))){var _0x40c059=end_time1[_0x325b12(0x1df)](end_time1['indexOf'](',')+0x1,end_time1[_0x325b12(0x1ea)]-0x1),_0x40084d=_0x40c059['slice'](0x0,_0x40c059[_0x325b12(0x1e9)](','));if(_0x484faf[_0x325b12(0x224)]()>Number(_0x40084d))backToLogInPage();else{if(_0x484faf[_0x325b12(0x224)]()==Number(_0x40084d)){var _0x29ce22=_0x40c059[_0x325b12(0x1df)](_0x40c059[_0x325b12(0x1e9)](',')+0x1,_0x40c059[_0x325b12(0x1ea)]);if(_0x484faf[_0x325b12(0x202)]()>Number(_0x29ce22))backToLogInPage();else{alert(_0x325b12(0x213));return;}}else{alert(_0x325b12(0x213));return;}}}else{alert(_0x325b12(0x213));return;}}}else backToLogInPage();}function backToLogInPage(){var _0x1a8255=_0x527148;alert(_0x1a8255(0x1fd)),window[_0x1a8255(0x1c1)]['href']=linkHomePage;}function setCookie(_0x5c014a,_0x3ff4c3,_0x1ff661){var _0x59d55e=_0x527148;const _0x51e016=new Date();_0x51e016[_0x59d55e(0x1c2)](_0x51e016['getTime']()+_0x1ff661*0x3c*0x3c*0x3e8);let _0x31f7da=_0x59d55e(0x1d5)+_0x51e016[_0x59d55e(0x1bc)]();document[_0x59d55e(0x1e1)]=_0x5c014a+'='+_0x3ff4c3+';'+_0x31f7da+';path=/';}function getCookie(_0x54c8e1){var _0x2cf218=_0x527148;let _0x3f661a=_0x54c8e1+'=',_0x50de06=decodeURIComponent(document[_0x2cf218(0x1e1)]),_0x4a5c20=_0x50de06[_0x2cf218(0x1e5)](';');for(let _0x4e7dd8=0x0;_0x4e7dd8<_0x4a5c20['length'];_0x4e7dd8++){let _0x51cc1f=_0x4a5c20[_0x4e7dd8];while(_0x51cc1f['charAt'](0x0)=='\x20'){_0x51cc1f=_0x51cc1f[_0x2cf218(0x21a)](0x1);}if(_0x51cc1f[_0x2cf218(0x1e9)](_0x3f661a)==0x0)return _0x51cc1f[_0x2cf218(0x21a)](_0x3f661a[_0x2cf218(0x1ea)],_0x51cc1f[_0x2cf218(0x1ea)]);}return'';}function renderLuaChonCongCu(){var _0x526b6f=_0x527148,_0x189df6='';_0x189df6=_0x526b6f(0x201)+_0x526b6f(0x1d3)+_0x526b6f(0x1d7),document[_0x526b6f(0x21d)](_0x526b6f(0x223))[_0x526b6f(0x215)]=_0x189df6;}function confirmRenderCongCu(){var _0x3d4863=_0x527148,_0x26f359=document['getElementsByName'](_0x3d4863(0x219)),_0x3b6329=![];for(i=0x0;i<_0x26f359[_0x3d4863(0x1ea)];i++){if(_0x26f359[i]['checked']){if(_0x26f359[i][_0x3d4863(0x1db)]=='s1')renderCongCu(_0x3d4863(0x211),0x1);else _0x26f359[i][_0x3d4863(0x1db)]=='s2'&&renderCongCu('CC2_LV2',0x2);_0x3b6329=!![];}}_0x3b6329==![]&&alert('Bạn\x20hãy\x20chọn\x20\x22Luyện\x20Tập\x22\x20hoặc\x20\x22Thi\x20Thử\x22\x20nhé!');}function renderCongCu(_0x2459b6,_0xb1266f){var _0x400c99=_0x527148;let _0x122763=getCookie(_0x400c99(0x21f)),_0x269a7d=_0x400c99(0x1bf)+_0x122763+_0x400c99(0x1cc);var _0x394e4b=_0x2459b6,_0x11e3c6='Select\x20*',_0x28c05e=encodeURIComponent(_0x11e3c6),_0x3a3339=_0x269a7d+_0x400c99(0x1ef)+_0x394e4b+_0x400c99(0x1d0)+_0x28c05e;dataAll=[],fetch(_0x3a3339)[_0x400c99(0x1d6)](_0x1b86de=>_0x1b86de[_0x400c99(0x22a)]())[_0x400c99(0x1d6)](_0x2c11a5=>{var _0x2f2b9f=_0x400c99;const _0x1059e2=JSON[_0x2f2b9f(0x205)](_0x2c11a5[_0x2f2b9f(0x20f)](0x2f)[_0x2f2b9f(0x1df)](0x0,-0x2)),_0x20a4f4=[];_0x1059e2[_0x2f2b9f(0x1fa)]['cols'][_0x2f2b9f(0x1f9)](_0x3d0956=>{var _0x308137=_0x2f2b9f;_0x3d0956[_0x308137(0x203)]&&_0x20a4f4[_0x308137(0x228)](_0x3d0956['label'][_0x308137(0x1bb)]()['replace'](/\s/g,''));}),_0x1059e2[_0x2f2b9f(0x1fa)][_0x2f2b9f(0x229)][_0x2f2b9f(0x1f9)](_0x388791=>{var _0x15fe3d=_0x2f2b9f;const _0x31aab8={};_0x20a4f4[_0x15fe3d(0x1f9)]((_0x295139,_0x1bcc0d)=>{_0x31aab8[_0x295139]=_0x388791['c'][_0x1bcc0d]!=null?_0x388791['c'][_0x1bcc0d]['v']:'';}),dataAll['push'](_0x31aab8);}),_0xb1266f==0x1?renderToWebsite1(dataAll):renderToWebsite2(dataAll);});}function renderToWebsite1(_0x2ed524){var _0x35165c=_0x527148;htmlListForm='',htmlListForm=htmlListForm+_0x35165c(0x200)+'<tr\x20class=\x22table-row-form-real-estate-CongVu\x22>'+_0x35165c(0x1b7)+_0x35165c(0x1f5)+_0x35165c(0x1f8)+'</tr>';var _0x50efab='',_0x3a9001='';for(var _0xcaf432=0x0;_0xcaf432<_0x2ed524['length'];_0xcaf432++){_0x50efab=_0x35165c(0x1ee)+_0x2ed524[_0xcaf432][_0x35165c(0x1e4)]+'</button>',_0x3a9001=_0x35165c(0x216)+_0x2ed524[_0xcaf432]['title'],htmlListForm=htmlListForm+_0x35165c(0x1c4)+_0x35165c(0x1ca)+String(_0xcaf432+0x1)+'\x22'+_0x35165c(0x1d1)+_0x35165c(0x1e7)+_0x2ed524[_0xcaf432]['number']+_0x35165c(0x1dd)+_0x35165c(0x1be)+_0x3a9001+'</span></td>'+_0x35165c(0x1e7)+_0x35165c(0x225)+String(_0xcaf432+0x1)+_0x35165c(0x1d2)+'\x27'+String(_0x2ed524[_0xcaf432][_0x35165c(0x1cd)])+'\x27'+',\x27'+String(_0x2ed524[_0xcaf432]['id'])+'\x27'+',\x27'+String(_0x2ed524[_0xcaf432][_0x35165c(0x1c6)])+'\x27'+')\x22>'+_0x50efab+_0x35165c(0x1d9)+_0x35165c(0x1dd)+_0x35165c(0x1d4);}htmlListForm=htmlListForm+'</table>',document[_0x35165c(0x21d)](_0x35165c(0x214))[_0x35165c(0x215)]=htmlListForm;}function renderToWebsite2(_0x790752){var _0x465803=_0x527148;htmlListForm='',htmlListForm=htmlListForm+'<table\x20class=\x22table-form-real-estate-CongVu\x22>'+_0x465803(0x226)+_0x465803(0x1b7)+'<th\x20class=\x22table-header-form-real-estate-CongVu\x22>Bộ\x20Đề</th>'+_0x465803(0x208)+'</tr>';var _0x168db6='',_0x1528ad='';for(var _0xa00076=0x0;_0xa00076<_0x790752[_0x465803(0x1ea)];_0xa00076++){_0x168db6='<button\x20class=\x22button-google-form1\x22\x20type=\x22button\x22>'+_0x790752[_0xa00076][_0x465803(0x1e4)]+_0x465803(0x1ce),_0x1528ad=_0x465803(0x216)+_0x790752[_0xa00076][_0x465803(0x1e6)],htmlListForm=htmlListForm+_0x465803(0x1c4)+_0x465803(0x1ca)+String(_0xa00076+0x1)+'\x22'+_0x465803(0x1d1)+_0x465803(0x1e7)+_0x790752[_0xa00076][_0x465803(0x1f0)]+_0x465803(0x1dd)+_0x465803(0x1be)+_0x1528ad+_0x465803(0x1f7)+_0x465803(0x1e7)+_0x465803(0x225)+String(_0xa00076+0x1)+'\x22\x20onclick=\x22goToLink('+'\x27'+String(_0x790752[_0xa00076]['linktodo'])+'\x27'+',\x27'+String(_0x790752[_0xa00076]['id'])+'\x27'+',\x27'+String(_0x790752[_0xa00076][_0x465803(0x1c6)])+'\x27'+_0x465803(0x1eb)+_0x168db6+_0x465803(0x1d9)+'</td>'+'</tr>';}htmlListForm=htmlListForm+_0x465803(0x206),document['getElementById'](_0x465803(0x214))['innerHTML']=htmlListForm;}function goToLink(_0x4afeef,_0x343c2b,_0x4cf7db){var _0x588ffd=_0x527148;setCookie(_0x588ffd(0x20d),user1,0x8),setCookie(_0x588ffd(0x1e3),uFullName,0x8),setCookie(_0x588ffd(0x20e),typeUserDetail,0x8),setCookie(_0x588ffd(0x1f6),classOfUser,0x8),setCookie('ID',_0x343c2b,0x8),setCookie('STime',_0x4cf7db,0x8),tabPrevious!=null?(tabPrevious[_0x588ffd(0x1e8)](),tabPrevious=window[_0x588ffd(0x1ec)](_0x4afeef,_0x588ffd(0x204))):tabPrevious=window[_0x588ffd(0x1ec)](_0x4afeef,_0x588ffd(0x204));}
+let linkHomePage = "https://ic3gs6.github.io";
+let data1 = [];
+let user1 = "";
+let end_time1 = "";
+let uFullName = "";
+let typeUserDetail = "";
+let classOfUser = "";
+let checkRow1 = false;
+let dataAll = [];
+let tabPrevious = null;
+let urlCurrent = window.location.href;
+window.onload = init;
+
+function init() {
+    checkCookieHome();
+    checkCookie();
+    renderNameUsr();
+    renderLuaChonCongCu();
+    dataAnalysis();
+    logOut();
+    if(urlCurrent.search("IC3GS6LEVEL2.html") != -1){
+        urlCurrent = urlCurrent.substring(0,urlCurrent.search("IC3GS6LEVEL2.html")-1);
+    }
+}
+
+function checkCookieHome(){
+    let sheetID = '16so5Uyf5w-UMS9NVf-4VPkiS3wC8Nu36WQwVaugzxZ8';
+    let base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;
+    let codeSchool = getCookie("CodeSchool");
+    let ls1 = getCookie("LS1");
+    let ls2 = getCookie("LS2");
+    let ls3 = getCookie("LS3");
+    let dataCheckCookie = [];
+    var sheetName = 'School_Detail';
+    //up
+    var qu_AllData = '';
+    qu_AllData = 'Select B,C,D,F,G WHERE B = \"' + codeSchool + '\" AND F = \"' + ls1 + '\" AND G = \"' + ls2 + '\" AND H = \"' + ls3 + '\"';
+    var queryAllData = encodeURIComponent(qu_AllData);
+    
+    var urlAllData = `${base}&sheet=${sheetName}&tq=${queryAllData}`;
+    fetch(urlAllData)
+    .then(res => res.text())
+    .then(rep => {                
+        const jsData = JSON.parse(rep.substr(47).slice(0, -2));
+        const colz = [];
+        jsData.table.cols.forEach((heading) => {
+            if (heading.label) {
+                colz.push(heading.label.toLowerCase().replace(/\s/g, ''));
+            }
+        })
+        jsData.table.rows.forEach((main) => {
+            const row = {};
+            colz.forEach((ele, ind) => {
+                row[ele] = (main.c[ind] != null) ? main.c[ind].v : '';
+            })
+            dataCheckCookie.push(row);
+        })
+        renderNameSchool(dataCheckCookie);        
+        return;
+    });
+    
+}
+
+function renderNameSchool(data){    
+    if(data.length == 0){
+        alert("Bạn cần chọn lại trường mình đang học!");
+        window.location.href = linkHomePage;
+    }
+    else{
+        document.getElementById("name-school").innerHTML = getCookie('NameSchool');
+    }    
+}
+
+function renderNameUsr(){
+    var htmlRenderNameUser = "<span style=\"color:blue;\">Họ và tên: </span>" + getCookie("nameUsr");
+    if(getCookie("typeUserDetail") == "K7"){
+        htmlRenderNameUser = htmlRenderNameUser + "<br>" + "<span style=\"color:blue;\">Lớp: </span>" + getCookie("classOfUser");
+    }
+   document.getElementById("nameUsr").innerHTML = htmlRenderNameUser;
+}
+
+function dataAnalysis(){
+    var htmlDataAnalysis = "";
+    htmlDataAnalysis = "<div><button class=\"btn-data-analysis\" onclick=\"actionDataAnalysis()\"><b>Thống Kê</b></button></div>";
+    if(getCookie("typeUserDetail") == "QL7" || getCookie("typeUserDetail") == "GV7"){
+        htmlDataAnalysis = htmlDataAnalysis + "<div><button class=\"btn-data-analysis\" style=\"margin-top:5px;\" onclick=\"actionDataAnalysisStudent()\"><b>Kết Quả Học Sinh</b></button></div>";
+    }
+    document.getElementById("data_analysis").innerHTML = htmlDataAnalysis;
+}
+
+function actionDataAnalysisStudent(){
+    //Up
+    var linkDataAnalysis = urlCurrent + "/teacher";
+    window.open(linkDataAnalysis,'_blank');
+}
+
+function actionDataAnalysis(){
+    //Up
+    var linkDataAnalysis = urlCurrent + "/analysis";
+    window.open(linkDataAnalysis,'_blank');
+}
+
+function logOut(){   
+    var htmlLogOut = "";
+    htmlLogOut = "<div><button class=\"btn-log-out\" onclick=\"actionLogOut()\"><b>Đăng Xuất</b></button></div>"
+                    
+    document.getElementById("log_out").innerHTML = htmlLogOut;
+}
+
+function actionLogOut(){
+    document.cookie = 'usr=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    document.cookie = 'nameUsr=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    document.cookie = 'typeUserDetail=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    document.cookie = 'classOfUser=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    document.cookie = 'ID=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    document.cookie = 'STime=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    window.location.href = linkHomePage;
+}
+
+function checkCookie() {
+    let sheetID = getCookie("LS2");
+    let base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;
+    let ur = getCookie("usr");
+    var sheetName = 'LogIn2';        
+    var qu_AllData = 'Select A, D, G, H, I WHERE A = \"' + ur + '\"';
+    var queryAllData = encodeURIComponent(qu_AllData);
+    var urlAllData = `${base}&sheet=${sheetName}&tq=${queryAllData}`;
+    fetch(urlAllData)
+    .then(res => res.text())
+    .then(rep => {                
+        const jsData = JSON.parse(rep.substr(47).slice(0, -2));
+        const colz = [];
+        jsData.table.cols.forEach((heading) => {
+            if (heading.label) {
+                colz.push(heading.label.toLowerCase().replace(/\s/g, ''));
+            }
+        })
+        
+        jsData.table.rows.forEach((main) => {
+            const row = {};
+            colz.forEach((ele, ind) => {
+                row[ele] = (main.c[ind] != null) ? main.c[ind].v : '';
+            })
+            data1 = Object.keys(row).map((key) => [key, row[key]]);
+            user1 = data1[0][1].toString();
+            end_time1 = data1[1][1].toString();           
+            typeUserDetail = data1[2][1].toString();
+            classOfUser = data1[3][1].toString();
+            uFullName = data1[4][1].toString();
+            checkLogIn1(ur);
+            checkRow1 = true;
+        })
+        if(checkRow1 == false){
+            checkLogIn1(ur);
+        }
+    })
+}
+
+function checkLogIn1(ur){
+    var currentDate = new Date();
+    if(user1 == ur){
+        if(currentDate.getUTCFullYear() > Number(end_time1.slice(5,9))){
+            backToLogInPage();
+        }
+        else if(currentDate.getUTCFullYear() == Number(end_time1.slice(5,9))){
+            var strMonth_Day_Tmp = end_time1.slice(end_time1.indexOf(",")+1,end_time1.length-1);
+            var strMonth = strMonth_Day_Tmp.slice(0,strMonth_Day_Tmp.indexOf(","));
+            if(currentDate.getUTCMonth() > Number(strMonth)){
+                backToLogInPage();
+            }
+            else if(currentDate.getUTCMonth() == Number(strMonth)){
+                var strDay = strMonth_Day_Tmp.slice(strMonth_Day_Tmp.indexOf(",")+1,strMonth_Day_Tmp.length);
+                if(currentDate.getUTCDate() > Number(strDay)){
+                    backToLogInPage();
+                }
+                else{                    
+                    alert("Chúc bạn luyện thi hiệu quả!");
+                    return;
+                }
+            }
+            else{
+                alert("Chúc bạn luyện thi hiệu quả!");
+                return;
+            }
+        }
+        else{
+            alert("Chúc bạn luyện thi hiệu quả!");
+            return;
+        }  
+    }
+    else{
+        backToLogInPage();
+    }
+}
+
+function backToLogInPage(){
+    alert("Bạn cần đăng nhập lại để tiếp tục luyện thi!");
+    window.location.href = linkHomePage;
+}
+
+function setCookie(cname,cvalue,exhours) {
+    const d = new Date();
+    d.setTime(d.getTime() + (exhours*60*60*1000));
+    let expires = "expires=" + d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    // document.cookie = courseName + "=" + courseValue + ";" + expires + ";path=/";
+    // document.cookie = achievementsOfUserName + "=" + achievementsOfUserValue + ";" + expires + ";path=/";
+    
+}
+
+function getCookie(cname) {
+    let name = cname + "=";
+    let decodedCookie = decodeURIComponent(document.cookie);
+    let ca = decodedCookie.split(';');
+    for(let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+}
+
+function renderLuaChonCongCu(){
+    var htmlSelectTool = "";
+    htmlSelectTool = "<input type=\"radio\" id=\"s1\" name=\"se_tool\" value=\"s1\"> <b><i>Luyện Tập</i></b>&emsp;&ensp;"
+                    + "<input type=\"radio\" id=\"s2\" name=\"se_tool\" value=\"s2\"> <b><i>Thi Thử</i></b><br/>"
+                    + "<div><button class=\"btn-select-tool\" onclick=\"confirmRenderCongCu()\"><b>OK</b></button></div>";
+                    
+    document.getElementById("select-tool").innerHTML = htmlSelectTool;
+}
+
+function confirmRenderCongCu(){
+    var ele = document.getElementsByName('se_tool');
+    var checkSelect = false;
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked){
+            if(ele[i].value == "s1"){
+                renderCongCu("CC1_LV2", 1);
+            }
+            else if(ele[i].value == "s2"){
+                renderCongCu("CC2_LV2", 2);
+            }
+            checkSelect = true;
+        }
+    }
+    if(checkSelect == false){
+        alert("Bạn hãy chọn \"Luyện Tập\" hoặc \"Thi Thử\" nhé!");
+    }
+}
+
+function renderCongCu(nameSheet, typeTool){
+    //Up
+    let sheetID = getCookie("LS1");
+    let base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;
+    var sheetName = nameSheet;
+    var qu_AllData = 'Select *';
+    var queryAllData = encodeURIComponent(qu_AllData);
+    var urlAllData = `${base}&sheet=${sheetName}&tq=${queryAllData}`;
+    dataAll = [];
+    fetch(urlAllData)
+    .then(res => res.text())
+    .then(rep => {                
+        const jsData = JSON.parse(rep.substr(47).slice(0, -2));
+        const colz = [];
+        jsData.table.cols.forEach((heading) => {
+            if (heading.label) {
+                colz.push(heading.label.toLowerCase().replace(/\s/g, ''));
+            }
+        })
+        
+        jsData.table.rows.forEach((main) => {
+            const row = {};
+            colz.forEach((ele, ind) => {
+                row[ele] = (main.c[ind] != null) ? main.c[ind].v : '';
+            })
+            dataAll.push(row);
+        })
+        if(typeTool == 1){
+            renderToWebsite1(dataAll);
+        }
+        else{
+            renderToWebsite2(dataAll);
+        }        
+    });
+}
+
+function renderToWebsite1(data){
+    htmlListForm = "";   
+    htmlListForm = htmlListForm + "<table class=\"table-form-real-estate-CongVu\">"
+                                + "<tr class=\"table-row-form-real-estate-CongVu\">"
+                                + "<th class=\"table-header-form-real-estate-CongVu\">STT</th>"
+                                + "<th class=\"table-header-form-real-estate-CongVu\">Chủ Đề</th>"
+                                + "<th class=\"table-header-form-real-estate-CongVu\">Luyện Tập</th>"
+                                + "</tr>";
+    var typeTodo = "";
+    var titleTodo = "";
+    for(var count = 0; count < data.length; count++){
+        typeTodo = "<button class=\"button-google-form\" type=\"button\">"+ data[count]['nametodo'] +"</button>";
+        titleTodo = "<span style=\"color:black;font-weight:bold;\">" + data[count]['title'];
+    
+
+        htmlListForm = htmlListForm + "<tr "
+                                    + "id=\"info" + String(count+1) + "\""
+                                    + " class=\"table-row-form-real-estate-CongVu\">"
+                                    + "<td class=\"table-data-form-real-estate-CongVu\" style=\"text-align:center;\">"
+                                    + data[count]['number']
+                                    + "</td>"
+                                    + "<td class=\"table-data-form-real-estate-CongVu\">"
+                                    + titleTodo
+                                    + "</span></td>"
+                                    + "<td class=\"table-data-form-real-estate-CongVu\" style=\"text-align:center;\">"
+                                    + "<a href=\"#info" + String(count+1) + "\" onclick=\"goToLink("
+                                    + "\'"
+                                    + String(data[count]['linktodo'])
+                                    + "\'"
+                                    + ",\'"
+                                    + String(data[count]['id'])
+                                    + "\'"
+                                    + ",\'"
+                                    + String(data[count]['currenttime'])
+                                    + "\'"
+                                    + ")\">"
+                                    + typeTodo
+                                    + "</a>"
+
+                                    + "</td>"
+                                    + "</tr>"
+    }
+    htmlListForm = htmlListForm + "</table>";
+    document.getElementById("main").innerHTML = htmlListForm;
+}
+
+function renderToWebsite2(data){
+    htmlListForm = "";   
+    htmlListForm = htmlListForm + "<table class=\"table-form-real-estate-CongVu\">"
+                                + "<tr class=\"table-row-form-real-estate-CongVu\">"
+                                + "<th class=\"table-header-form-real-estate-CongVu\">STT</th>"
+                                + "<th class=\"table-header-form-real-estate-CongVu\">Bộ Đề</th>"
+                                + "<th class=\"table-header-form-real-estate-CongVu\">Thi Thử</th>"
+                                + "</tr>";
+    var typeTodo = "";
+    var titleTodo = "";
+    for(var count = 0; count < data.length; count++){
+        typeTodo = "<button class=\"button-google-form1\" type=\"button\">"+ data[count]['nametodo'] +"</button>";
+        titleTodo = "<span style=\"color:black;font-weight:bold;\">" + data[count]['title'];
+    
+
+        htmlListForm = htmlListForm + "<tr "
+                                    + "id=\"info" + String(count+1) + "\""
+                                    + " class=\"table-row-form-real-estate-CongVu\">"
+                                    + "<td class=\"table-data-form-real-estate-CongVu\" style=\"text-align:center;\">"
+                                    + data[count]['number']
+                                    + "</td>"
+                                    + "<td class=\"table-data-form-real-estate-CongVu\">"
+                                    + titleTodo
+                                    + "</span></td>"
+                                    + "<td class=\"table-data-form-real-estate-CongVu\" style=\"text-align:center;\">"
+                                    + "<a href=\"#info" + String(count+1) + "\" onclick=\"goToLink("
+                                    + "\'"
+                                    + String(data[count]['linktodo'])
+                                    + "\'"
+                                    + ",\'"
+                                    + String(data[count]['id'])
+                                    + "\'"
+                                    + ",\'"
+                                    + String(data[count]['currenttime'])
+                                    + "\'"
+                                    + ")\">"
+                                    + typeTodo
+                                    + "</a>"
+
+                                    + "</td>"
+                                    + "</tr>"
+    }
+    htmlListForm = htmlListForm + "</table>";
+    document.getElementById("main").innerHTML = htmlListForm;
+}
+
+function goToLink(linkToDo,ID,STime){
+    setCookie("usr", user1, 8);
+    setCookie("nameUsr", uFullName, 8);
+    setCookie("typeUserDetail", typeUserDetail, 8);
+    setCookie("classOfUser", classOfUser, 8);
+    setCookie("ID", ID, 8);
+    setCookie("STime", STime, 8);
+    if(tabPrevious != null){
+        tabPrevious.close();
+        tabPrevious = window.open(linkToDo,'_blank');
+    }
+    else{
+        tabPrevious = window.open(linkToDo,'_blank'); 
+    }
+}
