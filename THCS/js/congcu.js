@@ -1,1 +1,273 @@
-const _0x44aedf=_0x3319;(function(_0x29f082,_0x416dc5){const _0x963e4e=_0x3319,_0xc27925=_0x29f082();while(!![]){try{const _0x1eb23c=parseInt(_0x963e4e(0x18f))/0x1*(parseInt(_0x963e4e(0x19a))/0x2)+-parseInt(_0x963e4e(0x1b0))/0x3*(parseInt(_0x963e4e(0x196))/0x4)+parseInt(_0x963e4e(0x199))/0x5*(parseInt(_0x963e4e(0x19d))/0x6)+parseInt(_0x963e4e(0x1ad))/0x7+-parseInt(_0x963e4e(0x182))/0x8+parseInt(_0x963e4e(0x19e))/0x9+parseInt(_0x963e4e(0x18e))/0xa;if(_0x1eb23c===_0x416dc5)break;else _0xc27925['push'](_0xc27925['shift']());}catch(_0x59d5ff){_0xc27925['push'](_0xc27925['shift']());}}}(_0x1554,0xb554a));let modal=document[_0x44aedf(0x17d)](_0x44aedf(0x1b7)),valueLevel=0x0,linkHomePage=_0x44aedf(0x18d),linkCongCuLuyenThiLevel1='',linkCongCuLuyenThiLevel2='',linkCongCuLuyenThiLevel3='',urlCurrent=window[_0x44aedf(0x1d3)][_0x44aedf(0x17c)];window[_0x44aedf(0x19b)]=init;function _0x1554(){const _0x15e6f9=['target','setTime','#385723','#994589','getUTCFullYear','id01','parse','text',';\x22\x20for=\x22uname\x22><b>','CodeSchool','forEach','<span\x20onclick=\x22document.getElementById(\x27id01\x27).style.display=\x27none\x27\x22\x20class=\x22close\x22\x20title=\x22Close\x20Modal\x22>&times;</span>','style','then','<div\x20class=\x22modal-content\x20animate\x22>','indexOf','getUTCMonth','Lớp\x205\x20-\x20IC3\x20GS6\x20Spark\x20Level\x20','value','\x22\x20AND\x20F\x20=\x20\x22','LogIn3','LS2','<input\x20id=\x22psw\x22\x20type=\x22password\x22\x20placeholder=\x22Nhập\x20Mã\x20Xác\x20Thực\x22\x20autocomplete=\x22new-password\x22\x20required>','https://docs.google.com/spreadsheets/d/','substr','LogIn2','table','expires=','index.html','\x22\x20AND\x20B\x20=\x20\x22','replace','slice','rows','location','psw','toString','cols','&tq=','map','href','getElementById','<h2\x20style=\x22text-align:\x20center;\x20color:\x20','onclick','split','toUTCString','5615080nugPUy','name-school','nameUsr','Bạn\x20cần\x20chọn\x20lại\x20trường\x20mình\x20đang\x20học!','toLowerCase','16so5Uyf5w-UMS9NVf-4VPkiS3wC8Nu36WQwVaugzxZ8','block','getTime','uname','Select\x20B,C,D,F,G\x20WHERE\x20B\x20=\x20\x22','\x22\x20AND\x20G\x20=\x20\x22','https://ic3gs6.github.io','12611150sASAEa','19MYnUak','Bạn\x20đã\x20NHẬP\x20SAI\x20thông\x20tin\x20đăng\x20nhập!','cookie','</b></h2>','length','Tài\x20khoản\x20của\x20bạn\x20đã\x20hết\x20hạn!','usr','1428wHGnQd','/gviz/tq?','charAt','5nPaPLP','1328XHWyuu','onload','push','663918GUOwek','1042056olMAdu','</div>','&sheet=','<button\x20onclick=\x22submit()\x22>Đăng\x20Nhập</button>',';path=/','label','getUTCDate','search','typeUserDetail','innerHTML','display','School_Detail','LS1','keys','Bạn\x20hãy\x20nhập\x20đầy\x20đủ\x20thông\x20tin\x20nhé!','3654511XxHRBF','substring','LS3','4854ZUSpiQ','<input\x20id=\x22uname\x22\x20type=\x22text\x22\x20placeholder=\x22Nhập\x20Tên\x20Đăng\x20Nhập\x22\x20autocomplete=\x22off\x22\x20required>'];_0x1554=function(){return _0x15e6f9;};return _0x1554();}function init(){const _0x576d8d=_0x44aedf;checkCookie();if(urlCurrent[_0x576d8d(0x1a5)]('index.html')!=-0x1)urlCurrent=urlCurrent[_0x576d8d(0x1ae)](0x0,urlCurrent[_0x576d8d(0x1a5)](_0x576d8d(0x1ce))-0x1);else{if(urlCurrent[_0x576d8d(0x1a5)]('/#')!=-0x1)urlCurrent=urlCurrent[_0x576d8d(0x1ae)](0x0,urlCurrent['search']('/#'));else urlCurrent[_0x576d8d(0x1ae)](urlCurrent['length']-0x1,urlCurrent[_0x576d8d(0x193)])=='/'&&(urlCurrent=urlCurrent['substring'](0x0,urlCurrent[_0x576d8d(0x193)]-0x1));}linkCongCuLuyenThiLevel1=urlCurrent+'/IC3GS6LEVEL1.html',linkCongCuLuyenThiLevel2=urlCurrent+'/IC3GS6LEVEL2.html',linkCongCuLuyenThiLevel3=urlCurrent+'/IC3GS6LEVEL3.html';}function checkCookie(){const _0x108b51=_0x44aedf;if(getCookie(_0x108b51(0x1bb))['substring'](0x0,0x2)=='Ti'){let _0x5cdc8=_0x108b51(0x187),_0x26e9b5=_0x108b51(0x1c9)+_0x5cdc8+_0x108b51(0x197),_0x52ab6f=getCookie('CodeSchool'),_0x2ef9d9=getCookie(_0x108b51(0x1aa)),_0x2da633=getCookie(_0x108b51(0x1c7)),_0x23be44=getCookie(_0x108b51(0x1af)),_0x389086=[];var _0x14cb32=_0x108b51(0x1a9),_0x57aedd='';_0x57aedd=_0x108b51(0x18b)+_0x52ab6f+_0x108b51(0x1c5)+_0x2ef9d9+_0x108b51(0x18c)+_0x2da633+'\x22\x20AND\x20H\x20=\x20\x22'+_0x23be44+'\x22';var _0x358c01=encodeURIComponent(_0x57aedd),_0x225e32=_0x26e9b5+_0x108b51(0x1a0)+_0x14cb32+_0x108b51(0x17a)+_0x358c01;fetch(_0x225e32)[_0x108b51(0x1bf)](_0x1451c1=>_0x1451c1['text']())[_0x108b51(0x1bf)](_0x884675=>{const _0x4b4eea=_0x108b51,_0x42ae0a=JSON[_0x4b4eea(0x1b8)](_0x884675[_0x4b4eea(0x1ca)](0x2f)[_0x4b4eea(0x1d1)](0x0,-0x2)),_0x58b747=[];_0x42ae0a[_0x4b4eea(0x1cc)]['cols'][_0x4b4eea(0x1bc)](_0x2072c3=>{const _0x4ea06d=_0x4b4eea;_0x2072c3[_0x4ea06d(0x1a3)]&&_0x58b747['push'](_0x2072c3[_0x4ea06d(0x1a3)][_0x4ea06d(0x186)]()[_0x4ea06d(0x1d0)](/\s/g,''));}),_0x42ae0a[_0x4b4eea(0x1cc)][_0x4b4eea(0x1d2)][_0x4b4eea(0x1bc)](_0x25fef2=>{const _0x1b6f5=_0x4b4eea,_0x224198={};_0x58b747[_0x1b6f5(0x1bc)]((_0x4cdd20,_0x71f251)=>{_0x224198[_0x4cdd20]=_0x25fef2['c'][_0x71f251]!=null?_0x25fef2['c'][_0x71f251]['v']:'';}),_0x389086[_0x1b6f5(0x19c)](_0x224198);}),renderNameSchool(_0x389086);return;});}else alert(_0x108b51(0x185)),window['location'][_0x108b51(0x17c)]=linkHomePage;}function renderNameSchool(_0x3e9e47){const _0x20487a=_0x44aedf;_0x3e9e47[_0x20487a(0x193)]==0x0?(alert(_0x20487a(0x185)),window[_0x20487a(0x1d3)][_0x20487a(0x17c)]=linkHomePage):document['getElementById'](_0x20487a(0x183))[_0x20487a(0x1a7)]=getCookie('NameSchool');}function modalLogIn(_0x499826){const _0x45b7f6=_0x44aedf;document[_0x45b7f6(0x17d)]('id01')[_0x45b7f6(0x1be)][_0x45b7f6(0x1a8)]=_0x45b7f6(0x188),valueLevel=_0x499826;var _0x4fbf99='',_0x45a22a='',_0xbca5cf='';if(valueLevel==0x1)_0x4fbf99='Lớp\x203\x20-\x20IC3\x20GS6\x20Spark\x20Level\x20'+valueLevel[_0x45b7f6(0x178)](),_0xbca5cf=_0x45b7f6(0x1b5);else valueLevel==0x2?(_0x4fbf99='Lớp\x204\x20-\x20IC3\x20GS6\x20Spark\x20Level\x20'+valueLevel[_0x45b7f6(0x178)](),_0xbca5cf='#843C0C'):(_0x4fbf99=_0x45b7f6(0x1c3)+valueLevel[_0x45b7f6(0x178)](),_0xbca5cf=_0x45b7f6(0x1b4));_0x45a22a=_0x45b7f6(0x1c0)+'<div\x20class=\x22imgcontainer\x22>'+_0x45b7f6(0x1bd)+_0x45b7f6(0x19f)+'<div\x20class=\x22container\x22\x20autocomplete=\x22off\x22\x20>'+_0x45b7f6(0x17e)+_0xbca5cf+_0x45b7f6(0x1ba)+_0x4fbf99+_0x45b7f6(0x192)+'<label\x20for=\x22uname\x22><b>Tên\x20Đăng\x20Nhập</b></label>'+_0x45b7f6(0x1b1)+'<label\x20for=\x22psw\x22><b>Mã\x20Xác\x20Thực</b></label>'+_0x45b7f6(0x1c8)+_0x45b7f6(0x1a1)+_0x45b7f6(0x19f)+_0x45b7f6(0x19f),document[_0x45b7f6(0x17d)](_0x45b7f6(0x1b7))[_0x45b7f6(0x1a7)]=_0x45a22a;}window[_0x44aedf(0x17f)]=function(_0x1b36a8){const _0x554509=_0x44aedf;_0x1b36a8[_0x554509(0x1b2)]==modal&&(modal[_0x554509(0x1be)][_0x554509(0x1a8)]='none');};let data=[],user='',end_time='',uFullName='',typeUserDetail='',classOfUser='',checkRow=![];function submit(){const _0x3f2d66=_0x44aedf;let _0x49ad16=getCookie(_0x3f2d66(0x1c7)),_0xcc57c7='https://docs.google.com/spreadsheets/d/'+_0x49ad16+'/gviz/tq?';data=[],user='',end_time='',check=![];if(document['getElementById']('uname')[_0x3f2d66(0x1c4)]==''||document[_0x3f2d66(0x17d)](_0x3f2d66(0x1d4))[_0x3f2d66(0x1c4)]=='')alert(_0x3f2d66(0x1ac));else{var _0x1fa1f0=document[_0x3f2d66(0x17d)](_0x3f2d66(0x18a))[_0x3f2d66(0x1c4)],_0x4537cf=document[_0x3f2d66(0x17d)](_0x3f2d66(0x1d4))[_0x3f2d66(0x1c4)],_0xec3fc3='';if(valueLevel==0x1)_0xec3fc3='LogIn1';else{if(valueLevel==0x2)_0xec3fc3=_0x3f2d66(0x1cb);else valueLevel==0x3&&(_0xec3fc3=_0x3f2d66(0x1c6));}var _0x191e11='Select\x20A,\x20D,\x20G,\x20H,\x20I\x20WHERE\x20A\x20=\x20\x22'+_0x1fa1f0+_0x3f2d66(0x1cf)+_0x4537cf+'\x22',_0x1ae5a3=encodeURIComponent(_0x191e11),_0x1c6dd0=_0xcc57c7+_0x3f2d66(0x1a0)+_0xec3fc3+_0x3f2d66(0x17a)+_0x1ae5a3;fetch(_0x1c6dd0)['then'](_0x186036=>_0x186036[_0x3f2d66(0x1b9)]())[_0x3f2d66(0x1bf)](_0x1cca5c=>{const _0x5b2e01=_0x3f2d66,_0x2e8032=JSON['parse'](_0x1cca5c[_0x5b2e01(0x1ca)](0x2f)[_0x5b2e01(0x1d1)](0x0,-0x2)),_0x3c1b53=[];_0x2e8032[_0x5b2e01(0x1cc)][_0x5b2e01(0x179)][_0x5b2e01(0x1bc)](_0xcc9898=>{const _0x2ec37e=_0x5b2e01;_0xcc9898[_0x2ec37e(0x1a3)]&&_0x3c1b53[_0x2ec37e(0x19c)](_0xcc9898[_0x2ec37e(0x1a3)]['toLowerCase']()[_0x2ec37e(0x1d0)](/\s/g,''));}),_0x2e8032['table'][_0x5b2e01(0x1d2)]['forEach'](_0x5dffe9=>{const _0x4aad22=_0x5b2e01,_0x3d1e95={};_0x3c1b53[_0x4aad22(0x1bc)]((_0x1285d2,_0x206f39)=>{_0x3d1e95[_0x1285d2]=_0x5dffe9['c'][_0x206f39]!=null?_0x5dffe9['c'][_0x206f39]['v']:'';}),data=Object[_0x4aad22(0x1ab)](_0x3d1e95)[_0x4aad22(0x17b)](_0x4d423f=>[_0x4d423f,_0x3d1e95[_0x4d423f]]),user=data[0x0][0x1][_0x4aad22(0x178)](),end_time=data[0x1][0x1][_0x4aad22(0x178)](),typeUserDetail=data[0x2][0x1]['toString'](),classOfUser=data[0x3][0x1][_0x4aad22(0x178)](),uFullName=data[0x4][0x1]['toString'](),checkLogIn(),checkRow=!![];}),checkRow==![]&&checkLogIn();});}}function _0x3319(_0x3b8ea2,_0x53260f){const _0x155462=_0x1554();return _0x3319=function(_0x331970,_0x34fd76){_0x331970=_0x331970-0x178;let _0x4fd5dc=_0x155462[_0x331970];return _0x4fd5dc;},_0x3319(_0x3b8ea2,_0x53260f);}function checkLogIn(){const _0x55beab=_0x44aedf;var _0x11d8a8=new Date();if(user==document[_0x55beab(0x17d)](_0x55beab(0x18a))[_0x55beab(0x1c4)]){if(_0x11d8a8['getUTCFullYear']()>Number(end_time['slice'](0x5,0x9)))alert(_0x55beab(0x194));else{if(_0x11d8a8[_0x55beab(0x1b6)]()==Number(end_time[_0x55beab(0x1d1)](0x5,0x9))){var _0x376808=end_time[_0x55beab(0x1d1)](end_time[_0x55beab(0x1c1)](',')+0x1,end_time[_0x55beab(0x193)]-0x1),_0x2c47ba=_0x376808['slice'](0x0,_0x376808[_0x55beab(0x1c1)](','));if(_0x11d8a8[_0x55beab(0x1c2)]()>Number(_0x2c47ba))alert('Tài\x20khoản\x20của\x20bạn\x20đã\x20hết\x20hạn!');else{if(_0x11d8a8['getUTCMonth']()==Number(_0x2c47ba)){var _0x259248=_0x376808[_0x55beab(0x1d1)](_0x376808[_0x55beab(0x1c1)](',')+0x1,_0x376808[_0x55beab(0x193)]);_0x11d8a8[_0x55beab(0x1a4)]()>Number(_0x259248)?alert(_0x55beab(0x194)):goToLinkCongCuLuyenThi();}else goToLinkCongCuLuyenThi();}}else goToLinkCongCuLuyenThi();}}else alert(_0x55beab(0x190));}function goToLinkCongCuLuyenThi(){const _0x5c13c7=_0x44aedf;setCookie(_0x5c13c7(0x195),user,0x8),setCookie(_0x5c13c7(0x184),uFullName,0x8),setCookie(_0x5c13c7(0x1a6),typeUserDetail,0x8),setCookie('classOfUser',classOfUser,0x8);if(valueLevel==0x1)window[_0x5c13c7(0x1d3)][_0x5c13c7(0x17c)]=linkCongCuLuyenThiLevel1;else{if(valueLevel==0x2)window[_0x5c13c7(0x1d3)][_0x5c13c7(0x17c)]=linkCongCuLuyenThiLevel2;else valueLevel==0x3&&(window[_0x5c13c7(0x1d3)][_0x5c13c7(0x17c)]=linkCongCuLuyenThiLevel3);}}function setCookie(_0x4a2d87,_0x24b087,_0x1c151f){const _0x4f23f7=_0x44aedf,_0xab7c6e=new Date();_0xab7c6e[_0x4f23f7(0x1b3)](_0xab7c6e[_0x4f23f7(0x189)]()+_0x1c151f*0x3c*0x3c*0x3e8);let _0x4b98af=_0x4f23f7(0x1cd)+_0xab7c6e[_0x4f23f7(0x181)]();document[_0x4f23f7(0x191)]=_0x4a2d87+'='+_0x24b087+';'+_0x4b98af+_0x4f23f7(0x1a2);}function getCookie(_0x43dfb8){const _0x341866=_0x44aedf;let _0x469d08=_0x43dfb8+'=',_0x4d317e=decodeURIComponent(document[_0x341866(0x191)]),_0x15732d=_0x4d317e[_0x341866(0x180)](';');for(let _0x67b346=0x0;_0x67b346<_0x15732d[_0x341866(0x193)];_0x67b346++){let _0x5419aa=_0x15732d[_0x67b346];while(_0x5419aa[_0x341866(0x198)](0x0)=='\x20'){_0x5419aa=_0x5419aa[_0x341866(0x1ae)](0x1);}if(_0x5419aa[_0x341866(0x1c1)](_0x469d08)==0x0)return _0x5419aa[_0x341866(0x1ae)](_0x469d08[_0x341866(0x193)],_0x5419aa[_0x341866(0x193)]);}return'';}
+// Get the modal
+let modal = document.getElementById('id01');
+let valueLevel = 0;
+let linkHomePage = "https://ic3gs6.github.io";
+//Up
+let linkCongCuLuyenThiLevel1 = "";
+let linkCongCuLuyenThiLevel2 = "";
+let linkCongCuLuyenThiLevel3 = "";
+let urlCurrent = window.location.href;
+
+window.onload = init;
+
+function init() {
+    checkCookie();
+    if(urlCurrent.search("index.html") != -1){
+        urlCurrent = urlCurrent.substring(0,urlCurrent.search("index.html")-1);
+    }
+    else if(urlCurrent.search("/#") != -1){
+        urlCurrent = urlCurrent.substring(0,urlCurrent.search("/#"));
+    }
+    else if(urlCurrent.substring(urlCurrent.length-1,urlCurrent.length) == "/"){
+        urlCurrent = urlCurrent.substring(0,urlCurrent.length-1);
+    }
+
+    linkCongCuLuyenThiLevel1 = urlCurrent + "/IC3GS6LEVEL1.html";
+    linkCongCuLuyenThiLevel2 = urlCurrent + "/IC3GS6LEVEL2.html";
+    linkCongCuLuyenThiLevel3 = urlCurrent + "/IC3GS6LEVEL3.html";
+}
+
+function checkCookie(){
+    if(getCookie("CodeSchool").substring(0,2) == "TH"){
+        let sheetID = '16so5Uyf5w-UMS9NVf-4VPkiS3wC8Nu36WQwVaugzxZ8';
+        let base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;
+        let codeSchool = getCookie("CodeSchool");
+        let ls1 = getCookie("LS1");
+        let ls2 = getCookie("LS2");
+        let ls3 = getCookie("LS3");
+        let dataCheckCookie = [];
+        var sheetName = 'School_Detail';
+        //up
+        var qu_AllData = '';
+        qu_AllData = 'Select B,C,D,F,G WHERE B = \"' + codeSchool + '\" AND F = \"' + ls1 + '\" AND G = \"' + ls2 + '\" AND H = \"' + ls3 + '\"';
+        var queryAllData = encodeURIComponent(qu_AllData);
+        
+        var urlAllData = `${base}&sheet=${sheetName}&tq=${queryAllData}`;
+        fetch(urlAllData)
+        .then(res => res.text())
+        .then(rep => {                
+            const jsData = JSON.parse(rep.substr(47).slice(0, -2));
+            const colz = [];
+            jsData.table.cols.forEach((heading) => {
+                if (heading.label) {
+                    colz.push(heading.label.toLowerCase().replace(/\s/g, ''));
+                }
+            })
+            jsData.table.rows.forEach((main) => {
+                const row = {};
+                colz.forEach((ele, ind) => {
+                    row[ele] = (main.c[ind] != null) ? main.c[ind].v : '';
+                })
+                dataCheckCookie.push(row);
+            })
+            renderNameSchool(dataCheckCookie);        
+            return;
+        });
+    }
+    else{
+        alert("Bạn cần chọn lại trường mình đang học!");
+        window.location.href = linkHomePage;
+    }
+}
+
+function renderNameSchool(data){    
+    if(data.length == 0){
+        alert("Bạn cần chọn lại trường mình đang học!");
+        window.location.href = linkHomePage;
+    }
+    else{
+        document.getElementById("name-school").innerHTML = getCookie('NameSchool');
+    }    
+}
+
+function modalLogIn(value){
+    document.getElementById('id01').style.display='block';
+    valueLevel = value;
+    var titleLogInLevel = "";
+    var htmlModelLogIn = "";
+    var colorTitleLogInLevel = "";
+    if(valueLevel == 1){
+        titleLogInLevel = "Lớp 6 - IC3 GS6 Level " + valueLevel.toString();
+        colorTitleLogInLevel = "#994589";
+    }
+    else if(valueLevel == 2){
+        titleLogInLevel = "Lớp 7 - IC3 GS6 Level " + valueLevel.toString();
+        colorTitleLogInLevel = "#843C0C";
+    }
+    else{
+        titleLogInLevel = "Lớp 8 - IC3 GS6 Level " + valueLevel.toString();
+        colorTitleLogInLevel = "#385723";
+    }
+    htmlModelLogIn = "<div class=\"modal-content animate\">"
+                    + "<div class=\"imgcontainer\">"
+                    + "<span onclick=\"document.getElementById(\'id01\').style.display=\'none\'\" class=\"close\" title=\"Close Modal\">&times;</span>"
+                    + "</div>"
+                    + "<div class=\"container\" autocomplete=\"off\" >"
+                    + "<h2 style=\"text-align: center; color: "
+                    + colorTitleLogInLevel
+                    + ";\" for=\"uname\"><b>"
+                    + titleLogInLevel
+                    + "</b></h2>"
+                    + "<label for=\"uname\"><b>Tên Đăng Nhập</b></label>"
+                    + "<input id=\"uname\" type=\"text\" placeholder=\"Nhập Tên Đăng Nhập\" autocomplete=\"off\" required>"
+                    + "<label for=\"psw\"><b>Mã Xác Thực</b></label>"
+                    + "<input id=\"psw\" type=\"password\" placeholder=\"Nhập Mã Xác Thực\" autocomplete=\"new-password\" required>"
+                    + "<button onclick=\"submit()\">Đăng Nhập</button>"
+                    + "</div>"
+                    + "</div>";
+    document.getElementById("id01").innerHTML = htmlModelLogIn;
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+let data = [];
+let user = "";
+let end_time = "";
+let uFullName = "";
+let typeUserDetail = "";
+let classOfUser = "";
+let checkRow = false;
+
+function submit(){
+    let sheetID = getCookie("LS2");
+    let base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;   
+    data = [];
+    user = "";
+    end_time = "";
+    check = false;
+    //console.log("Value: ",valueLevel);
+    if(document.getElementById("uname").value=="" || document.getElementById("psw").value==""){
+        alert("Bạn hãy nhập đầy đủ thông tin nhé!");
+    }
+    else{
+        var u = document.getElementById("uname").value;
+        var p = document.getElementById("psw").value;
+        var sheetName = '';
+        if(valueLevel == 1){            
+            sheetName = 'LogIn1';
+        }
+        else if(valueLevel == 2){            
+            sheetName = 'LogIn2';
+        }
+        else if(valueLevel == 3){            
+            sheetName = 'LogIn3';
+        }
+        var qu_AllData = 'Select A, D, G, H, I WHERE A = \"' + u + '\" AND B = \"' + p + '\"';            
+        //var qu_AllData = 'Select * ';
+        var queryAllData = encodeURIComponent(qu_AllData);
+        var urlAllData = `${base}&sheet=${sheetName}&tq=${queryAllData}`;
+        
+        //console.log(urlAllData);
+        fetch(urlAllData)
+        .then(res => res.text())
+        .then(rep => {                
+            const jsData = JSON.parse(rep.substr(47).slice(0, -2));                
+            const colz = [];
+            jsData.table.cols.forEach((heading) => {
+                if (heading.label) {
+                    colz.push(heading.label.toLowerCase().replace(/\s/g, ''));
+                }
+            })
+            
+            jsData.table.rows.forEach((main) => {
+                const row = {};
+                colz.forEach((ele, ind) => {
+                    row[ele] = (main.c[ind] != null) ? main.c[ind].v : '';
+                })
+                data = Object.keys(row).map((key) => [key, row[key]]);
+                //console.log(typeof Object.keys(row).map((key) => [key, row[key]]));
+                //data.push(row);
+                user = data[0][1].toString();
+                end_time = data[1][1].toString();
+                typeUserDetail = data[2][1].toString();
+                classOfUser = data[3][1].toString();
+                uFullName = data[4][1].toString();
+                checkLogIn();
+                checkRow = true;
+            })
+            if(checkRow == false){
+                checkLogIn();
+            }
+        })
+    }    
+}
+
+function checkLogIn(){
+    var currentDate = new Date();
+    if(user == document.getElementById("uname").value){
+        if(currentDate.getUTCFullYear() > Number(end_time.slice(5,9))){
+            alert("Tài khoản của bạn đã hết hạn!");
+        }
+        else if(currentDate.getUTCFullYear() == Number(end_time.slice(5,9))){
+            var strMonth_Day_Tmp = end_time.slice(end_time.indexOf(",")+1,end_time.length-1);
+            var strMonth = strMonth_Day_Tmp.slice(0,strMonth_Day_Tmp.indexOf(","));
+            if(currentDate.getUTCMonth() > Number(strMonth)){
+                alert("Tài khoản của bạn đã hết hạn!");
+            }
+            else if(currentDate.getUTCMonth() == Number(strMonth)){
+                var strDay = strMonth_Day_Tmp.slice(strMonth_Day_Tmp.indexOf(",")+1,strMonth_Day_Tmp.length);
+                if(currentDate.getUTCDate() > Number(strDay)){
+                    alert("Tài khoản của bạn đã hết hạn!");
+                }
+                else{
+                    goToLinkCongCuLuyenThi();
+                }
+            }
+            else{
+                goToLinkCongCuLuyenThi();
+            }
+        }
+        else{
+            goToLinkCongCuLuyenThi();
+        }
+    }
+    else{
+        alert("Bạn đã NHẬP SAI thông tin đăng nhập!");
+    }
+}
+
+function goToLinkCongCuLuyenThi(){
+    //Up
+    setCookie("usr", user, 8);
+    setCookie("nameUsr", uFullName, 8);
+    setCookie("typeUserDetail", typeUserDetail, 8);
+    setCookie("classOfUser", classOfUser, 8);
+    
+    if(valueLevel == 1){
+        window.location.href = linkCongCuLuyenThiLevel1;
+    }
+    else if(valueLevel == 2){
+        window.location.href = linkCongCuLuyenThiLevel2;
+    }
+    else if(valueLevel == 3){
+        window.location.href = linkCongCuLuyenThiLevel3;
+    }
+}
+
+function setCookie(cname,cvalue,exhours) {
+    const d = new Date();
+    d.setTime(d.getTime() + (exhours*60*60*1000));
+    let expires = "expires=" + d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+    let name = cname + "=";
+    let decodedCookie = decodeURIComponent(document.cookie);
+    let ca = decodedCookie.split(';');
+    for(let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+}
