@@ -1,1 +1,609 @@
-var _0x13957a=_0x309a;(function(_0x291d33,_0x154caf){var _0x1220cb=_0x309a,_0x2a7420=_0x291d33();while(!![]){try{var _0x52c43f=parseInt(_0x1220cb(0x14d))/0x1*(parseInt(_0x1220cb(0x159))/0x2)+parseInt(_0x1220cb(0x116))/0x3*(parseInt(_0x1220cb(0x12a))/0x4)+-parseInt(_0x1220cb(0x121))/0x5*(-parseInt(_0x1220cb(0x100))/0x6)+parseInt(_0x1220cb(0x130))/0x7+-parseInt(_0x1220cb(0x11f))/0x8+-parseInt(_0x1220cb(0xed))/0x9*(parseInt(_0x1220cb(0x155))/0xa)+-parseInt(_0x1220cb(0x148))/0xb*(parseInt(_0x1220cb(0xe7))/0xc);if(_0x52c43f===_0x154caf)break;else _0x2a7420['push'](_0x2a7420['shift']());}catch(_0x2deedd){_0x2a7420['push'](_0x2a7420['shift']());}}}(_0x498a,0x7bb39));let linkHomePage=_0x13957a(0x153),data1=[],listUnitLT=[],listUnitTT=[],listDataAnalysis=[],user1='',end_time1='',checkRow1=![],lstClassSearch=[],checkAccAdmin=![],fileCSVContent='data:text/csv;charset=utf-8,',rowOfFileCSV='',titleClass='',titleUnit='';window[_0x13957a(0x12c)]=init;function init(){checkCookieHome(),checkCookie(),renderNameUsr(),getListClassSearch(),getListUnit(),btnSearch(),logOut();}function checkCookieHome(){var _0x3f2980=_0x13957a;let _0x31d24c=_0x3f2980(0x105),_0x39c4b8=_0x3f2980(0x10e)+_0x31d24c+_0x3f2980(0x15a),_0x2ac61d=getCookie(_0x3f2980(0xfa)),_0x52bf8c=getCookie(_0x3f2980(0x14b)),_0x477e2d=getCookie('LS2'),_0x25d08b=getCookie(_0x3f2980(0x107)),_0x180832=[];var _0x5a042a='School_Detail',_0x19d453='';_0x19d453=_0x3f2980(0xe8)+_0x2ac61d+'\x22\x20AND\x20F\x20=\x20\x22'+_0x52bf8c+_0x3f2980(0x113)+_0x477e2d+_0x3f2980(0x104)+_0x25d08b+'\x22';var _0x4830cc=encodeURIComponent(_0x19d453),_0x4c64c5=_0x39c4b8+'&sheet='+_0x5a042a+'&tq='+_0x4830cc;fetch(_0x4c64c5)['then'](_0x1c96bd=>_0x1c96bd[_0x3f2980(0x110)]())[_0x3f2980(0x162)](_0x9be257=>{var _0x1db81a=_0x3f2980;const _0x53c7fa=JSON[_0x1db81a(0xeb)](_0x9be257[_0x1db81a(0x108)](0x2f)[_0x1db81a(0x10c)](0x0,-0x2)),_0x769d8f=[];_0x53c7fa['table'][_0x1db81a(0x119)][_0x1db81a(0x11e)](_0x9385e3=>{var _0x258b02=_0x1db81a;_0x9385e3[_0x258b02(0x140)]&&_0x769d8f[_0x258b02(0xef)](_0x9385e3[_0x258b02(0x140)]['toLowerCase']()['replace'](/\s/g,''));}),_0x53c7fa['table'][_0x1db81a(0x115)][_0x1db81a(0x11e)](_0x1ad96b=>{var _0x1b15a8=_0x1db81a;const _0x19d554={};_0x769d8f['forEach']((_0x43c56e,_0x121dfa)=>{_0x19d554[_0x43c56e]=_0x1ad96b['c'][_0x121dfa]!=null?_0x1ad96b['c'][_0x121dfa]['v']:'';}),_0x180832[_0x1b15a8(0xef)](_0x19d554);}),renderNameSchool(_0x180832);return;});}function renderNameSchool(_0x1b50cd){var _0x4c0d5f=_0x13957a;_0x1b50cd['length']==0x0?(alert(_0x4c0d5f(0x141)),window[_0x4c0d5f(0x109)]['href']=linkHomePage):document[_0x4c0d5f(0x157)](_0x4c0d5f(0xf6))['innerHTML']=getCookie(_0x4c0d5f(0x11a));}function renderNameUsr(){var _0x1b5bfd=_0x13957a,_0x140624=_0x1b5bfd(0x112)+getCookie(_0x1b5bfd(0x11d));document[_0x1b5bfd(0x157)](_0x1b5bfd(0x11d))['innerHTML']=_0x140624;}function _0x498a(){var _0x4599f2=['getElementById','options','11642KycvzP','/gviz/tq?','Select\x20B,\x20C,\x20D,\x20E,\x20F,\x20G,\x20H,\x20I,\x20J\x20WHERE\x20E\x20=\x20\x22','getDate','<label>Chọn\x20Bài:&ensp;</label>','\x22\x20AND\x20D\x20=\x20\x22','</select>','open','<div\x20class=\x22csv_btn\x22\x20id=\x22csv_btn\x22>','then','time','37260btnLnh','Select\x20B,C,D,F,G\x20WHERE\x20B\x20=\x20\x22','table','replace','parse','class','1017AYGHss','<table\x20class=\x22table-form-real-estate-CongVu\x22>','push','STT','search','Bài:\x20','<h2><span\x20style=\x22color:blue;font-weight:bold;font-style:italic\x22>Chưa\x20có\x20dữ\x20liệu!</span></h2>','<select\x20id=\x22select-unit-analysis\x22\x20required>','getFullYear','name-school','date_analysis','<td\x20class=\x22table-data-form-real-estate-CongVu\x22>','<th\x20class=\x22table-header-form-real-estate-CongVu\x22>Tên\x20Tài\x20Khoản</th>','CodeSchool','<td\x20class=\x22table-data-form-real-estate-CongVu\x22\x20style=\x22text-align:center;\x22>','keys','<select\x20id=\x22select-class-search\x22\x20required>','<label>Chọn\x20Lớp\x20(K8):&ensp;</label>','\x20class=\x22table-row-form-real-estate-CongVu\x22>','3785388KJFlOT','usr','select-class','Công\x20Cụ\x20Luyện\x20Thi\x20IC3\x20GS6\x20Level\x203\x20-\x20K8','\x22\x20AND\x20H\x20=\x20\x22','16so5Uyf5w-UMS9NVf-4VPkiS3wC8Nu36WQwVaugzxZ8','</div>','LS3','substr','location','<th\x20class=\x22table-header-form-real-estate-CongVu\x22>Ngày\x20Làm\x20Bài</th>','getTime','slice','charAt','https://docs.google.com/spreadsheets/d/','ID=;\x20Path=/;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x20GMT;','text','&tq=','<span\x20style=\x22color:blue;\x22>Xin\x20Chào!\x20</span>','\x22\x20AND\x20G\x20=\x20\x22','toString','rows','39SoJdOu','getUTCMonth','</table>','cols','NameSchool','<button\x20class=\x22btn-search\x22\x20onclick=\x22renderDataResultSearch()\x22><b>Tìm\x20Kiếm</b></button>','<div><button\x20class=\x22btn-log-out\x22\x20onclick=\x22actionLogOut()\x22><b>Đăng\x20Xuất</b></button></div>','nameUsr','forEach','2264872Dekifs','</tr>','5veSEwK','ALL','log_out','substring','length','toLowerCase','expires=','nametodo','selectedIndex','235876YZPKwJ','</option>','onload','LS2','\x20giây','CC1_LV3','4260144GVLuVz','innerHTML','<td\x20class=\x22table-data-form-real-estate-CongVu\x22\x20style=\x22font-weight:\x20bold;\x20text-align:center;\x20color:blue;\x22>','main','getUTCFullYear','user','Họ\x20Và\x20Tên','href','\x20phút\x20','Select\x20B,\x20E','indexOf','getUTCDate','THỐNG\x20KÊ\x20KẾT\x20QUẢ','select-class-search','score','Select\x20A,\x20D,\x20I\x20WHERE\x20A\x20=\x20\x22','label','Bạn\x20cần\x20chọn\x20lại\x20trường\x20mình\x20đang\x20học!','&sheet=','cookie','floor','usr=;\x20Path=/;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x20GMT;','duration','CC2_LV3','7315tyKYWs','Select\x20B\x20WHERE\x20A\x20=\x20\x22K8\x22','fullname','LS1','value','158VVSEnj','setTime','Giờ\x20Làm\x20Bài','<hr>','<th\x20class=\x22table-header-form-real-estate-CongVu\x22>Điểm</th>','<option\x20value=\x22','https://ic3gs6.github.io','</td>','6300LJtWNP','<tr\x20class=\x22table-row-form-real-estate-CongVu\x22>'];_0x498a=function(){return _0x4599f2;};return _0x498a();}function getListClassSearch(){var _0x2d93ff=_0x13957a;let _0x2c73ac=getCookie(_0x2d93ff(0x12d)),_0x15dbf7='https://docs.google.com/spreadsheets/d/'+_0x2c73ac+_0x2d93ff(0x15a);lstClassSearch=[];var _0x57f7da='QL_GV_K8',_0x22c22d='Select\x20A,\x20D\x20WHERE\x20A\x20=\x20\x22'+getCookie(_0x2d93ff(0x101))+'\x22',_0x1d9be6=encodeURIComponent(_0x22c22d),_0x3b3226=_0x15dbf7+_0x2d93ff(0x142)+_0x57f7da+_0x2d93ff(0x111)+_0x1d9be6;fetch(_0x3b3226)[_0x2d93ff(0x162)](_0x79ab2a=>_0x79ab2a[_0x2d93ff(0x110)]())[_0x2d93ff(0x162)](_0xd15d97=>{var _0x167b7d=_0x2d93ff;const _0x4adbf1=JSON[_0x167b7d(0xeb)](_0xd15d97[_0x167b7d(0x108)](0x2f)[_0x167b7d(0x10c)](0x0,-0x2)),_0x1eb47f=[];_0x4adbf1[_0x167b7d(0xe9)][_0x167b7d(0x119)][_0x167b7d(0x11e)](_0x25249c=>{var _0x25c414=_0x167b7d;_0x25249c['label']&&_0x1eb47f[_0x25c414(0xef)](_0x25249c['label'][_0x25c414(0x126)]()['replace'](/\s/g,''));}),_0x4adbf1[_0x167b7d(0xe9)][_0x167b7d(0x115)][_0x167b7d(0x11e)](_0x250b6c=>{var _0x40c4d5=_0x167b7d;const _0x50e5a7={};_0x1eb47f[_0x40c4d5(0x11e)]((_0xae3dea,_0x479666)=>{_0x50e5a7[_0xae3dea]=_0x250b6c['c'][_0x479666]!=null?_0x250b6c['c'][_0x479666]['v']:'';}),lstClassSearch['push'](_0x50e5a7);}),actionLoadListClassSearch(lstClassSearch);});}function actionLoadListClassSearch(_0x5e5871){var _0x4686fe=_0x13957a;checkAccAdmin=![];var _0x72030e=[];for(var _0x1ad292=0x0;_0x1ad292<_0x5e5871['length'];_0x1ad292++){if(_0x5e5871[_0x1ad292][_0x4686fe(0xec)]==_0x4686fe(0x122)||_0x5e5871[_0x1ad292][_0x4686fe(0xec)]=='K8'){let _0x53bc74=getCookie(_0x4686fe(0x12d)),_0x14afa7=_0x4686fe(0x10e)+_0x53bc74+_0x4686fe(0x15a);checkAccAdmin=!![];var _0x1f1835='Class_Detail',_0x396f3b=_0x4686fe(0x149),_0x5ac3d3=encodeURIComponent(_0x396f3b),_0x478fd0=_0x14afa7+'&sheet='+_0x1f1835+_0x4686fe(0x111)+_0x5ac3d3;fetch(_0x478fd0)[_0x4686fe(0x162)](_0xd86e20=>_0xd86e20['text']())['then'](_0x8d6784=>{var _0x195a92=_0x4686fe;const _0x56bdf7=JSON['parse'](_0x8d6784[_0x195a92(0x108)](0x2f)['slice'](0x0,-0x2)),_0x2dbe37=[];_0x56bdf7[_0x195a92(0xe9)][_0x195a92(0x119)][_0x195a92(0x11e)](_0x26b612=>{var _0x4d4545=_0x195a92;_0x26b612[_0x4d4545(0x140)]&&_0x2dbe37[_0x4d4545(0xef)](_0x26b612[_0x4d4545(0x140)][_0x4d4545(0x126)]()[_0x4d4545(0xea)](/\s/g,''));}),_0x56bdf7['table'][_0x195a92(0x115)][_0x195a92(0x11e)](_0x4500fc=>{var _0x57992e=_0x195a92;const _0x9a01a4={};_0x2dbe37[_0x57992e(0x11e)]((_0x4038fb,_0x201fef)=>{_0x9a01a4[_0x4038fb]=_0x4500fc['c'][_0x201fef]!=null?_0x4500fc['c'][_0x201fef]['v']:'';}),_0x72030e[_0x57992e(0xef)](_0x9a01a4);}),_0x5e5871=_0x72030e,actionLoadListClassSearchResult(_0x5e5871);return;});}}checkAccAdmin==![]&&actionLoadListClassSearchResult(_0x5e5871);}function actionLoadListClassSearchResult(_0x299781){var _0x9a526e=_0x13957a,_0x59f70c='<option\x20value=\x220\x22>-----</option>';for(var _0x568ec7=0x0;_0x568ec7<_0x299781[_0x9a526e(0x125)];_0x568ec7++){_0x59f70c=_0x59f70c+'<option\x20value=\x22'+_0x299781[_0x568ec7][_0x9a526e(0xec)]+'\x22>'+_0x299781[_0x568ec7]['class']+_0x9a526e(0x12b);}var _0x29d600=_0x9a526e(0xfe)+_0x9a526e(0xfd)+_0x59f70c+_0x9a526e(0x15f);_0x29d600=_0x29d600+'<hr>',document[_0x9a526e(0x157)](_0x9a526e(0x102))[_0x9a526e(0x131)]=_0x29d600;}function actionLoadListUnit(_0x5d0f29,_0x410938){var _0x251e94=_0x13957a,_0x1efd4a='<option\x20value=\x220\x22>-----</option>';for(var _0x1cb80c=0x0;_0x1cb80c<_0x5d0f29[_0x251e94(0x125)];_0x1cb80c++){_0x1efd4a=_0x1efd4a+_0x251e94(0x152)+_0x5d0f29[_0x1cb80c]['id']+'\x22>'+_0x5d0f29[_0x1cb80c][_0x251e94(0x128)]+_0x251e94(0x12b);}var _0x433c72='';for(var _0x1cb80c=0x0;_0x1cb80c<_0x410938['length'];_0x1cb80c++){_0x433c72=_0x433c72+_0x251e94(0x152)+_0x410938[_0x1cb80c]['id']+'\x22>'+_0x410938[_0x1cb80c][_0x251e94(0x128)]+_0x251e94(0x12b);}var _0x3336f1=_0x251e94(0x15d)+_0x251e94(0xf4)+_0x1efd4a+_0x433c72+_0x251e94(0x15f);_0x3336f1=_0x3336f1+_0x251e94(0x150),document['getElementById']('select-tool')[_0x251e94(0x131)]=_0x3336f1;}function getListUnit(){var _0x4138dc=_0x13957a;let _0x110bbe=getCookie(_0x4138dc(0x14b)),_0x4db9ec=_0x4138dc(0x10e)+_0x110bbe+'/gviz/tq?';listUnitLT=[];var _0x3b935c=_0x4138dc(0x12f),_0x40e782='Select\x20B,\x20E',_0x17cf88=encodeURIComponent(_0x40e782),_0x580507=_0x4db9ec+_0x4138dc(0x142)+_0x3b935c+_0x4138dc(0x111)+_0x17cf88;fetch(_0x580507)[_0x4138dc(0x162)](_0x2b946d=>_0x2b946d[_0x4138dc(0x110)]())['then'](_0x40c2b7=>{var _0x58977f=_0x4138dc;const _0x238f1c=JSON['parse'](_0x40c2b7['substr'](0x2f)[_0x58977f(0x10c)](0x0,-0x2)),_0x4a5f8a=[];_0x238f1c[_0x58977f(0xe9)][_0x58977f(0x119)]['forEach'](_0x34d8d0=>{var _0x350f6f=_0x58977f;_0x34d8d0[_0x350f6f(0x140)]&&_0x4a5f8a['push'](_0x34d8d0['label'][_0x350f6f(0x126)]()[_0x350f6f(0xea)](/\s/g,''));}),_0x238f1c[_0x58977f(0xe9)][_0x58977f(0x115)][_0x58977f(0x11e)](_0x2a6ace=>{var _0x11b95c=_0x58977f;const _0x407604={};_0x4a5f8a[_0x11b95c(0x11e)]((_0x469449,_0x1f145e)=>{_0x407604[_0x469449]=_0x2a6ace['c'][_0x1f145e]!=null?_0x2a6ace['c'][_0x1f145e]['v']:'';}),listUnitLT[_0x11b95c(0xef)](_0x407604);}),getListUnit2(listUnitLT);});}function getListUnit2(_0x144232){var _0xb93b2d=_0x13957a;let _0x11430f=getCookie(_0xb93b2d(0x14b)),_0x530522=_0xb93b2d(0x10e)+_0x11430f+_0xb93b2d(0x15a);listUnitTT=[];var _0x3ae999=_0xb93b2d(0x147),_0x32f312=_0xb93b2d(0x139),_0x23071d=encodeURIComponent(_0x32f312),_0x488ae7=_0x530522+_0xb93b2d(0x142)+_0x3ae999+_0xb93b2d(0x111)+_0x23071d;fetch(_0x488ae7)[_0xb93b2d(0x162)](_0x4208c5=>_0x4208c5['text']())[_0xb93b2d(0x162)](_0x211517=>{var _0x46119d=_0xb93b2d;const _0x4b65a4=JSON[_0x46119d(0xeb)](_0x211517[_0x46119d(0x108)](0x2f)[_0x46119d(0x10c)](0x0,-0x2)),_0x38b36d=[];_0x4b65a4[_0x46119d(0xe9)][_0x46119d(0x119)]['forEach'](_0x17f8eb=>{var _0x5acdb1=_0x46119d;_0x17f8eb[_0x5acdb1(0x140)]&&_0x38b36d[_0x5acdb1(0xef)](_0x17f8eb[_0x5acdb1(0x140)][_0x5acdb1(0x126)]()[_0x5acdb1(0xea)](/\s/g,''));}),_0x4b65a4[_0x46119d(0xe9)][_0x46119d(0x115)][_0x46119d(0x11e)](_0x44152c=>{var _0x453ca5=_0x46119d;const _0x767529={};_0x38b36d[_0x453ca5(0x11e)]((_0x287550,_0x2a5648)=>{_0x767529[_0x287550]=_0x44152c['c'][_0x2a5648]!=null?_0x44152c['c'][_0x2a5648]['v']:'';}),listUnitTT[_0x453ca5(0xef)](_0x767529);}),actionLoadListUnit(_0x144232,listUnitTT);});}function renderDataResultSearch(){var _0x2c186f=_0x13957a;let _0x58812e=getCookie(_0x2c186f(0x12d)),_0x30ae33=_0x2c186f(0x10e)+_0x58812e+_0x2c186f(0x15a);var _0x195bd7=document[_0x2c186f(0x157)]('select-unit-analysis'),_0x139ebb=document['getElementById'](_0x2c186f(0x13d));titleUnit=_0x195bd7[_0x2c186f(0x158)][_0x195bd7['selectedIndex']][_0x2c186f(0x110)],titleClass=_0x139ebb[_0x2c186f(0x158)][_0x139ebb[_0x2c186f(0x129)]][_0x2c186f(0x110)],_0x195bd7=_0x195bd7[_0x2c186f(0x14c)],_0x139ebb=_0x139ebb['value'],listDataAnalysis=[];var _0x2dbf7c='Result_All_View',_0x48a74e=_0x2c186f(0x15b)+_0x195bd7+_0x2c186f(0x15e)+_0x139ebb+'\x22',_0x378efd=encodeURIComponent(_0x48a74e),_0x588022=_0x30ae33+_0x2c186f(0x142)+_0x2dbf7c+_0x2c186f(0x111)+_0x378efd;fetch(_0x588022)[_0x2c186f(0x162)](_0x40af36=>_0x40af36['text']())[_0x2c186f(0x162)](_0x21fc44=>{var _0x2535d1=_0x2c186f;const _0x565f54=JSON['parse'](_0x21fc44[_0x2535d1(0x108)](0x2f)[_0x2535d1(0x10c)](0x0,-0x2)),_0x331ffa=[];_0x565f54[_0x2535d1(0xe9)][_0x2535d1(0x119)]['forEach'](_0xd33e3=>{var _0x286367=_0x2535d1;_0xd33e3['label']&&_0x331ffa[_0x286367(0xef)](_0xd33e3[_0x286367(0x140)]['toLowerCase']()['replace'](/\s/g,''));}),_0x565f54[_0x2535d1(0xe9)][_0x2535d1(0x115)][_0x2535d1(0x11e)](_0x1892c8=>{var _0x277db3=_0x2535d1;const _0x4fad55={};_0x331ffa[_0x277db3(0x11e)]((_0x570402,_0x569392)=>{_0x4fad55[_0x570402]=_0x1892c8['c'][_0x569392]!=null?_0x1892c8['c'][_0x569392]['v']:'';}),listDataAnalysis[_0x277db3(0xef)](_0x4fad55);}),renderToTableDataAnalysis(listDataAnalysis);});}function renderToTableDataAnalysis(_0x449330){var _0x7c4e=_0x13957a;rowOfFileCSV='',fileCSVContent='data:text/csv;charset=utf-8,';if(_0x449330[_0x7c4e(0x125)]==0x0)document[_0x7c4e(0x157)](_0x7c4e(0x133))[_0x7c4e(0x131)]=_0x7c4e(0xf3);else{rowOfFileCSV=_0x7c4e(0x13c),fileCSVContent+=rowOfFileCSV+'\x0d\x0a',rowOfFileCSV=_0x7c4e(0x103),fileCSVContent+=rowOfFileCSV+'\x0d\x0a',rowOfFileCSV=_0x7c4e(0xf2)+titleUnit,fileCSVContent+=rowOfFileCSV+'\x0d\x0a',rowOfFileCSV='Lớp:\x20'+titleClass,fileCSVContent+=rowOfFileCSV+'\x0d\x0a',rowOfFileCSV=_0x7c4e(0xf0)+','+'Tên\x20Tài\x20Khoản'+','+_0x7c4e(0x136)+','+'Ngày\x20Làm\x20Bài'+','+_0x7c4e(0x14f)+','+'Thời\x20Gian\x20Làm\x20Bài'+','+'Điểm',fileCSVContent+=rowOfFileCSV+'\x0d\x0a';var _0x476184='',_0x34bc0e=document[_0x7c4e(0x157)](_0x7c4e(0xf7))[_0x7c4e(0x14c)],_0x11bc21=0x0;if(_0x34bc0e=='')for(var _0x5e0083=0x0;_0x5e0083<_0x449330[_0x7c4e(0x125)];_0x5e0083++){var _0x1730ca=Number(_0x449330[_0x5e0083][_0x7c4e(0x146)]),_0x12d12f=Math[_0x7c4e(0x144)](_0x1730ca/0x3c),_0xc08a42=_0x1730ca%0x3c,_0x47e594='';_0x47e594=_0x449330[_0x5e0083][_0x7c4e(0xe6)],_0x47e594=_0x47e594[_0x7c4e(0x10c)](0x5);var _0x5aebc9=Number(_0x47e594[_0x7c4e(0x10c)](0x0,_0x47e594[_0x7c4e(0xf1)](',')));_0x47e594=_0x47e594[_0x7c4e(0x10c)](_0x47e594['search'](',')+0x1);var _0x2092ca=Number(_0x47e594['slice'](0x0,_0x47e594[_0x7c4e(0xf1)](',')));_0x47e594=_0x47e594[_0x7c4e(0x10c)](_0x47e594[_0x7c4e(0xf1)](',')+0x1);var _0x212530=Number(_0x47e594[_0x7c4e(0x10c)](0x0,_0x47e594[_0x7c4e(0xf1)](',')));_0x47e594=_0x47e594[_0x7c4e(0x10c)](_0x47e594[_0x7c4e(0xf1)](',')+0x1);var _0x86a1a5=Number(_0x47e594['slice'](0x0,_0x47e594['search'](',')));_0x47e594=_0x47e594[_0x7c4e(0x10c)](_0x47e594[_0x7c4e(0xf1)](',')+0x1);var _0x22f70c=Number(_0x47e594[_0x7c4e(0x10c)](0x0,_0x47e594[_0x7c4e(0xf1)](',')));_0x47e594=_0x47e594[_0x7c4e(0x10c)](_0x47e594['search'](',')+0x1);var _0x1a0fcc=Number(_0x47e594[_0x7c4e(0x10c)](0x0,_0x47e594[_0x7c4e(0x125)]-0x1));rowOfFileCSV=(_0x11bc21+0x1)[_0x7c4e(0x114)]()+','+_0x449330[_0x5e0083][_0x7c4e(0x135)]+','+_0x449330[_0x5e0083]['fullname']+','+_0x212530+'/'+(_0x2092ca+0x1)[_0x7c4e(0x114)]()+'/'+_0x5aebc9+','+_0x86a1a5+':'+_0x22f70c+':'+_0x1a0fcc+','+_0x12d12f['toString']()+'\x20phút\x20'+_0xc08a42[_0x7c4e(0x114)]()+_0x7c4e(0x12e)+','+_0x449330[_0x5e0083]['score'],fileCSVContent+=rowOfFileCSV+'\x0d\x0a',_0x476184=_0x476184+'<tr\x20'+_0x7c4e(0xff)+_0x7c4e(0xf8)+(_0x11bc21+0x1)['toString']()+'</td>'+_0x7c4e(0xf8)+_0x449330[_0x5e0083][_0x7c4e(0x135)]+'</td>'+_0x7c4e(0xf8)+_0x449330[_0x5e0083]['fullname']+_0x7c4e(0x154)+_0x7c4e(0xf8)+_0x212530+'/'+(_0x2092ca+0x1)[_0x7c4e(0x114)]()+'/'+_0x5aebc9+_0x7c4e(0x154)+_0x7c4e(0xf8)+_0x86a1a5+':'+_0x22f70c+':'+_0x1a0fcc+'</td>'+'<td\x20class=\x22table-data-form-real-estate-CongVu\x22\x20style=\x22text-align:center;\x22>'+_0x12d12f[_0x7c4e(0x114)]()+'\x20phút\x20'+_0xc08a42[_0x7c4e(0x114)]()+_0x7c4e(0x12e)+_0x7c4e(0x154)+'<td\x20class=\x22table-data-form-real-estate-CongVu\x22\x20style=\x22font-weight:\x20bold;\x20text-align:center;\x20color:blue;\x22>'+_0x449330[_0x5e0083][_0x7c4e(0x13e)]+_0x7c4e(0x154)+_0x7c4e(0x120),_0x11bc21=_0x11bc21+0x1;}else{var _0x2efbdd=new Date(_0x34bc0e);for(var _0x5e0083=0x0;_0x5e0083<_0x449330['length'];_0x5e0083++){var _0x1730ca=Number(_0x449330[_0x5e0083][_0x7c4e(0x146)]),_0x12d12f=Math[_0x7c4e(0x144)](_0x1730ca/0x3c),_0xc08a42=_0x1730ca%0x3c,_0x47e594='';_0x47e594=_0x449330[_0x5e0083][_0x7c4e(0xe6)],_0x47e594=_0x47e594[_0x7c4e(0x10c)](0x5);var _0x5aebc9=Number(_0x47e594['slice'](0x0,_0x47e594[_0x7c4e(0xf1)](',')));_0x47e594=_0x47e594['slice'](_0x47e594['search'](',')+0x1);var _0x2092ca=Number(_0x47e594[_0x7c4e(0x10c)](0x0,_0x47e594[_0x7c4e(0xf1)](',')));_0x47e594=_0x47e594[_0x7c4e(0x10c)](_0x47e594[_0x7c4e(0xf1)](',')+0x1);var _0x212530=Number(_0x47e594[_0x7c4e(0x10c)](0x0,_0x47e594[_0x7c4e(0xf1)](',')));_0x47e594=_0x47e594['slice'](_0x47e594['search'](',')+0x1);var _0x86a1a5=Number(_0x47e594[_0x7c4e(0x10c)](0x0,_0x47e594[_0x7c4e(0xf1)](',')));_0x47e594=_0x47e594[_0x7c4e(0x10c)](_0x47e594[_0x7c4e(0xf1)](',')+0x1);var _0x22f70c=Number(_0x47e594['slice'](0x0,_0x47e594[_0x7c4e(0xf1)](',')));_0x47e594=_0x47e594[_0x7c4e(0x10c)](_0x47e594[_0x7c4e(0xf1)](',')+0x1);var _0x1a0fcc=Number(_0x47e594[_0x7c4e(0x10c)](0x0,_0x47e594[_0x7c4e(0x125)]-0x1));Number(_0x2efbdd[_0x7c4e(0xf5)]())==_0x5aebc9&&Number(_0x2efbdd['getMonth']())==_0x2092ca&&Number(_0x2efbdd[_0x7c4e(0x15c)]())==_0x212530&&(rowOfFileCSV=(_0x11bc21+0x1)[_0x7c4e(0x114)]()+','+_0x449330[_0x5e0083][_0x7c4e(0x135)]+','+_0x449330[_0x5e0083][_0x7c4e(0x14a)]+','+_0x212530+'/'+(_0x2092ca+0x1)[_0x7c4e(0x114)]()+'/'+_0x5aebc9+','+_0x86a1a5+':'+_0x22f70c+':'+_0x1a0fcc+','+_0x12d12f[_0x7c4e(0x114)]()+_0x7c4e(0x138)+_0xc08a42['toString']()+'\x20giây'+','+_0x449330[_0x5e0083][_0x7c4e(0x13e)],fileCSVContent+=rowOfFileCSV+'\x0d\x0a',_0x476184=_0x476184+'<tr\x20'+_0x7c4e(0xff)+_0x7c4e(0xf8)+(_0x11bc21+0x1)[_0x7c4e(0x114)]()+_0x7c4e(0x154)+_0x7c4e(0xf8)+_0x449330[_0x5e0083][_0x7c4e(0x135)]+'</td>'+'<td\x20class=\x22table-data-form-real-estate-CongVu\x22>'+_0x449330[_0x5e0083]['fullname']+_0x7c4e(0x154)+'<td\x20class=\x22table-data-form-real-estate-CongVu\x22>'+_0x212530+'/'+(_0x2092ca+0x1)[_0x7c4e(0x114)]()+'/'+_0x5aebc9+_0x7c4e(0x154)+_0x7c4e(0xf8)+_0x86a1a5+':'+_0x22f70c+':'+_0x1a0fcc+_0x7c4e(0x154)+_0x7c4e(0xfb)+_0x12d12f[_0x7c4e(0x114)]()+'\x20phút\x20'+_0xc08a42['toString']()+'\x20giây'+_0x7c4e(0x154)+_0x7c4e(0x132)+_0x449330[_0x5e0083][_0x7c4e(0x13e)]+'</td>'+_0x7c4e(0x120),_0x11bc21=_0x11bc21+0x1);}}if(_0x476184!=''){var _0x1b3b86=_0x7c4e(0xee)+_0x7c4e(0x156)+'<th\x20class=\x22table-header-form-real-estate-CongVu\x22>STT</th>'+_0x7c4e(0xf9)+'<th\x20class=\x22table-header-form-real-estate-CongVu\x22>Họ\x20Và\x20Tên</th>'+_0x7c4e(0x10a)+'<th\x20class=\x22table-header-form-real-estate-CongVu\x22>Giờ\x20Làm\x20Bài</th>'+'<th\x20class=\x22table-header-form-real-estate-CongVu\x22>Thời\x20Gian\x20Làm\x20Bài</th>'+_0x7c4e(0x151)+'</tr>';_0x476184=_0x1b3b86+_0x476184;}if(_0x476184!=''){_0x476184=_0x476184+_0x7c4e(0x118);var _0x5c151f='';_0x5c151f=_0x7c4e(0x161)+'<button\x20class=\x22btn-csv\x22\x20onclick=\x22downloadListResultSearchCSV()\x22><b>Tải\x20File\x20CSV</b></button>'+_0x7c4e(0x106),_0x476184=_0x5c151f+_0x476184,document[_0x7c4e(0x157)]('main')[_0x7c4e(0x131)]=_0x476184;}else document[_0x7c4e(0x157)](_0x7c4e(0x133))['innerHTML']=_0x7c4e(0xf3);}}function downloadListResultSearchCSV(){var _0x121166=_0x13957a,_0x4c01ba=encodeURI(fileCSVContent);window[_0x121166(0x160)](_0x4c01ba);}function checkCookie(){var _0x1c33fd=_0x13957a;let _0x18ebaa=getCookie(_0x1c33fd(0x12d)),_0xedcd30='https://docs.google.com/spreadsheets/d/'+_0x18ebaa+_0x1c33fd(0x15a),_0x301181=getCookie(_0x1c33fd(0x101));var _0x1c9b95='LogIn3',_0x57ceaf=_0x1c33fd(0x13f)+_0x301181+'\x22',_0x57ec0f=encodeURIComponent(_0x57ceaf),_0x5a5d06=_0xedcd30+_0x1c33fd(0x142)+_0x1c9b95+_0x1c33fd(0x111)+_0x57ec0f;fetch(_0x5a5d06)[_0x1c33fd(0x162)](_0x247d71=>_0x247d71[_0x1c33fd(0x110)]())[_0x1c33fd(0x162)](_0x2500cb=>{var _0x35c527=_0x1c33fd;const _0x256b71=JSON['parse'](_0x2500cb[_0x35c527(0x108)](0x2f)['slice'](0x0,-0x2)),_0x3ef811=[];_0x256b71[_0x35c527(0xe9)][_0x35c527(0x119)]['forEach'](_0x5258fa=>{var _0x107fd9=_0x35c527;_0x5258fa[_0x107fd9(0x140)]&&_0x3ef811[_0x107fd9(0xef)](_0x5258fa['label'][_0x107fd9(0x126)]()[_0x107fd9(0xea)](/\s/g,''));}),_0x256b71['table'][_0x35c527(0x115)][_0x35c527(0x11e)](_0x1d2f03=>{var _0x5a4d1a=_0x35c527;const _0x3182ae={};_0x3ef811['forEach']((_0x481b97,_0x9ae496)=>{_0x3182ae[_0x481b97]=_0x1d2f03['c'][_0x9ae496]!=null?_0x1d2f03['c'][_0x9ae496]['v']:'';}),data1=Object[_0x5a4d1a(0xfc)](_0x3182ae)['map'](_0x22d8eb=>[_0x22d8eb,_0x3182ae[_0x22d8eb]]),user1=data1[0x0][0x1][_0x5a4d1a(0x114)](),end_time1=data1[0x1][0x1][_0x5a4d1a(0x114)](),setCookie(_0x5a4d1a(0x101),data1[0x0][0x1][_0x5a4d1a(0x114)](),0x8),setCookie(_0x5a4d1a(0x11d),data1[0x2][0x1][_0x5a4d1a(0x114)](),0x8),checkLogIn1(_0x301181),checkRow1=!![];}),checkRow1==![]&&checkLogIn1(_0x301181);});}function _0x309a(_0x38e12c,_0x22b92d){var _0x498ac7=_0x498a();return _0x309a=function(_0x309a9c,_0x30c0f7){_0x309a9c=_0x309a9c-0xe6;var _0xcf4fe4=_0x498ac7[_0x309a9c];return _0xcf4fe4;},_0x309a(_0x38e12c,_0x22b92d);}function checkLogIn1(_0x478650){var _0x18877b=_0x13957a,_0x1fd783=new Date();if(user1==_0x478650){if(_0x1fd783[_0x18877b(0x134)]()>Number(end_time1[_0x18877b(0x10c)](0x5,0x9)))backToLogInPage();else{if(_0x1fd783['getUTCFullYear']()==Number(end_time1['slice'](0x5,0x9))){var _0x1de0c3=end_time1[_0x18877b(0x10c)](end_time1[_0x18877b(0x13a)](',')+0x1,end_time1[_0x18877b(0x125)]-0x1),_0x234143=_0x1de0c3['slice'](0x0,_0x1de0c3[_0x18877b(0x13a)](','));if(_0x1fd783[_0x18877b(0x117)]()>Number(_0x234143))backToLogInPage();else{if(_0x1fd783['getUTCMonth']()==Number(_0x234143)){var _0x55bc62=_0x1de0c3[_0x18877b(0x10c)](_0x1de0c3[_0x18877b(0x13a)](',')+0x1,_0x1de0c3[_0x18877b(0x125)]);if(_0x1fd783[_0x18877b(0x13b)]()>Number(_0x55bc62))backToLogInPage();else return;}else return;}}else return;}}else backToLogInPage();}function backToLogInPage(){var _0x2cd5ca=_0x13957a;alert('Bạn\x20cần\x20đăng\x20nhập\x20lại\x20để\x20tiếp\x20tục!'),window[_0x2cd5ca(0x109)][_0x2cd5ca(0x137)]=linkHomePage;}function getCookie(_0xaaf905){var _0x31a879=_0x13957a;let _0x406580=_0xaaf905+'=',_0x4377cc=decodeURIComponent(document[_0x31a879(0x143)]),_0x3508db=_0x4377cc['split'](';');for(let _0x230083=0x0;_0x230083<_0x3508db[_0x31a879(0x125)];_0x230083++){let _0x1f870d=_0x3508db[_0x230083];while(_0x1f870d[_0x31a879(0x10d)](0x0)=='\x20'){_0x1f870d=_0x1f870d[_0x31a879(0x124)](0x1);}if(_0x1f870d[_0x31a879(0x13a)](_0x406580)==0x0)return _0x1f870d[_0x31a879(0x124)](_0x406580[_0x31a879(0x125)],_0x1f870d[_0x31a879(0x125)]);}return'';}function setCookie(_0x269f56,_0xe2b508,_0x5ea5c6){var _0x3fb801=_0x13957a;const _0x3cb329=new Date();_0x3cb329[_0x3fb801(0x14e)](_0x3cb329[_0x3fb801(0x10b)]()+_0x5ea5c6*0x3c*0x3c*0x3e8);let _0x5acb44=_0x3fb801(0x127)+_0x3cb329['toUTCString']();document[_0x3fb801(0x143)]=_0x269f56+'='+_0xe2b508+';'+_0x5acb44+';path=/';}function logOut(){var _0x38d422=_0x13957a,_0x558aae='';_0x558aae=_0x38d422(0x11c),document[_0x38d422(0x157)](_0x38d422(0x123))['innerHTML']=_0x558aae;}function btnSearch(){var _0x2163d0=_0x13957a,_0x3f5c67='';_0x3f5c67=_0x2163d0(0x11b),document[_0x2163d0(0x157)]('search_btn')[_0x2163d0(0x131)]=_0x3f5c67;}function actionBtnSearch(){}function actionLogOut(){var _0x134922=_0x13957a;document[_0x134922(0x143)]=_0x134922(0x145),document['cookie']='nameUsr=;\x20Path=/;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x20GMT;',document[_0x134922(0x143)]=_0x134922(0x10f),document['cookie']='STime=;\x20Path=/;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x20GMT;',window[_0x134922(0x109)]['href']=linkHomePage;}
+let linkHomePage = "https://ic3gs6.github.io";
+let data1 = [];
+let listUnitLT = [];
+let listUnitTT = [];
+let listDataAnalysis = [];
+let user1 = "";
+let end_time1 = "";
+let checkRow1 = false;
+let lstClassSearch = [];
+let checkAccAdmin = false;
+let fileCSVContent = "data:text/csv;charset=utf-8,";
+let rowOfFileCSV = "";
+let titleClass = "";
+let titleUnit = "";
+window.onload = init;
+
+function init() {
+  checkCookieHome();
+  checkCookie();
+  renderNameUsr();
+  getListClassSearch();
+  getListUnit();
+  btnSearch();
+  logOut();
+}
+
+function checkCookieHome(){
+    let sheetID = '16so5Uyf5w-UMS9NVf-4VPkiS3wC8Nu36WQwVaugzxZ8';
+    let base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;
+    let codeSchool = getCookie("CodeSchool");
+    let ls1 = getCookie("LS1");
+    let ls2 = getCookie("LS2");
+    let ls3 = getCookie("LS3");
+    let dataCheckCookie = [];
+    var sheetName = 'School_Detail';
+    //up
+    var qu_AllData = '';
+    qu_AllData = 'Select B,C,D,F,G WHERE B = \"' + codeSchool + '\" AND F = \"' + ls1 + '\" AND G = \"' + ls2 + '\" AND H = \"' + ls3 + '\"';
+    var queryAllData = encodeURIComponent(qu_AllData);
+    
+    var urlAllData = `${base}&sheet=${sheetName}&tq=${queryAllData}`;
+    fetch(urlAllData)
+    .then(res => res.text())
+    .then(rep => {                
+        const jsData = JSON.parse(rep.substr(47).slice(0, -2));
+        const colz = [];
+        jsData.table.cols.forEach((heading) => {
+            if (heading.label) {
+                colz.push(heading.label.toLowerCase().replace(/\s/g, ''));
+            }
+        })
+        jsData.table.rows.forEach((main) => {
+            const row = {};
+            colz.forEach((ele, ind) => {
+                row[ele] = (main.c[ind] != null) ? main.c[ind].v : '';
+            })
+            dataCheckCookie.push(row);
+        })
+        renderNameSchool(dataCheckCookie);        
+        return;
+    });
+    
+}
+
+function renderNameSchool(data){    
+    if(data.length == 0){
+        alert("Bạn cần chọn lại trường mình đang học!");
+        window.location.href = linkHomePage;
+    }
+    else{
+        document.getElementById("name-school").innerHTML = getCookie('NameSchool');
+    }    
+}
+
+ function renderNameUsr(){
+    var htmlRenderNameUser = "<span style=\"color:blue;\">Xin Chào! </span>" + getCookie("nameUsr");
+   document.getElementById("nameUsr").innerHTML = htmlRenderNameUser;
+ }
+
+function getListClassSearch(){
+  let sheetID = getCookie("LS2");
+  let base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;
+  lstClassSearch = [];
+  var sheetName = 'QL_GV_K8';
+  var qu_AllData = 'Select A, D WHERE A = \"' + getCookie("usr") + '\"';
+  var queryAllData = encodeURIComponent(qu_AllData);
+  var urlAllData = `${base}&sheet=${sheetName}&tq=${queryAllData}`;
+  fetch(urlAllData)
+  .then(res => res.text())
+  .then(rep => {                
+      const jsData = JSON.parse(rep.substr(47).slice(0, -2));
+      const colz = [];
+      jsData.table.cols.forEach((heading) => {
+          if (heading.label) {
+              colz.push(heading.label.toLowerCase().replace(/\s/g, ''));
+          }
+      })
+      jsData.table.rows.forEach((main) => {
+          const row = {};
+          colz.forEach((ele, ind) => {
+              row[ele] = (main.c[ind] != null) ? main.c[ind].v : '';
+          })
+          lstClassSearch.push(row);
+      })
+      actionLoadListClassSearch(lstClassSearch);
+  });
+}
+
+function actionLoadListClassSearch(lstClassSearch){
+    checkAccAdmin = false;
+    var tmpLstClassSearch = [];
+    
+    for(var i=0; i<lstClassSearch.length; i++){
+        //up
+        if(lstClassSearch[i]["class"] == "ALL" || lstClassSearch[i]["class"] == "K8"){
+            let sheetID = getCookie("LS2");
+            let base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;
+            checkAccAdmin = true;
+            var sheetName = 'Class_Detail';
+            //up
+            var qu_AllData = 'Select B WHERE A = \"K8\"';
+            var queryAllData = encodeURIComponent(qu_AllData);
+            var urlAllData = `${base}&sheet=${sheetName}&tq=${queryAllData}`;
+            fetch(urlAllData)
+            .then(res => res.text())
+            .then(rep => {                
+                const jsData = JSON.parse(rep.substr(47).slice(0, -2));
+                const colz = [];
+                jsData.table.cols.forEach((heading) => {
+                    if (heading.label) {
+                        colz.push(heading.label.toLowerCase().replace(/\s/g, ''));
+                    }
+                })
+                jsData.table.rows.forEach((main) => {
+                    const row = {};
+                    colz.forEach((ele, ind) => {
+                        row[ele] = (main.c[ind] != null) ? main.c[ind].v : '';
+                    })
+                    tmpLstClassSearch.push(row);
+                })
+                lstClassSearch = tmpLstClassSearch;
+                actionLoadListClassSearchResult(lstClassSearch);                
+                return;
+            });
+        }
+    }
+    //console.log(lstClassSearch);
+    if(checkAccAdmin == false){
+        actionLoadListClassSearchResult(lstClassSearch);
+    }    
+}
+
+function actionLoadListClassSearchResult(lstClassSearch){
+    var htmlListClass = "<option value=\"0\">-----</option>";
+  
+    for(var i=0; i<lstClassSearch.length; i++){
+        htmlListClass = htmlListClass
+                    + "<option value=\""
+                    + lstClassSearch[i]["class"]
+                    + "\">"
+                    + lstClassSearch[i]["class"]
+                    + "</option>";
+    }
+    var htmlSelectClass = "<label>Chọn Lớp (K8):&ensp;</label>"
+                        + "<select id=\"select-class-search\" required>"
+                        + htmlListClass
+                        + "</select>";
+    htmlSelectClass = htmlSelectClass + "<hr>";
+    document.getElementById("select-class").innerHTML = htmlSelectClass;
+
+}
+
+function actionLoadListUnit(lstU1,lstU2){
+  var htmlListUnit1 = "<option value=\"0\">-----</option>";
+  
+  for(var i=0; i<lstU1.length; i++){
+    htmlListUnit1 = htmlListUnit1
+                  + "<option value=\""
+                  + lstU1[i]["id"]
+                  + "\">"
+                  + lstU1[i]["nametodo"]
+                  + "</option>";
+  }
+
+  var htmlListUnit2 = "";
+  for(var i=0; i<lstU2.length; i++){
+    htmlListUnit2 = htmlListUnit2
+                  + "<option value=\""
+                  + lstU2[i]["id"]
+                  + "\">"
+                  + lstU2[i]["nametodo"]
+                  + "</option>";
+  }
+  var htmlSelectUnit = "<label>Chọn Bài:&ensp;</label>"
+                      + "<select id=\"select-unit-analysis\" required>"
+                      + htmlListUnit1
+                      + htmlListUnit2
+                      + "</select>";
+  htmlSelectUnit = htmlSelectUnit + "<hr>";
+  document.getElementById("select-tool").innerHTML = htmlSelectUnit;
+}
+
+function getListUnit(){
+  let sheetID = getCookie("LS1");
+  let base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;
+  listUnitLT = [];
+  var sheetName = 'CC1_LV3';
+  var qu_AllData = 'Select B, E';
+  var queryAllData = encodeURIComponent(qu_AllData);
+  var urlAllData = `${base}&sheet=${sheetName}&tq=${queryAllData}`;
+  fetch(urlAllData)
+  .then(res => res.text())
+  .then(rep => {
+      const jsData = JSON.parse(rep.substr(47).slice(0, -2));
+      const colz = [];
+      jsData.table.cols.forEach((heading) => {
+          if (heading.label) {
+              colz.push(heading.label.toLowerCase().replace(/\s/g, ''));
+          }
+      })
+      jsData.table.rows.forEach((main) => {
+          const row = {};
+          colz.forEach((ele, ind) => {
+              row[ele] = (main.c[ind] != null) ? main.c[ind].v : '';
+          })
+          listUnitLT.push(row);
+      })
+      getListUnit2(listUnitLT);
+  });
+}
+
+function getListUnit2(listUnitLT){
+  let sheetID = getCookie("LS1");
+  let base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;
+  listUnitTT = [];
+  var sheetName = 'CC2_LV3';
+  var qu_AllData = 'Select B, E';
+  var queryAllData = encodeURIComponent(qu_AllData);
+  var urlAllData = `${base}&sheet=${sheetName}&tq=${queryAllData}`;
+  fetch(urlAllData)
+  .then(res => res.text())
+  .then(rep => {                
+      const jsData = JSON.parse(rep.substr(47).slice(0, -2));
+      const colz = [];
+      jsData.table.cols.forEach((heading) => {
+          if (heading.label) {
+              colz.push(heading.label.toLowerCase().replace(/\s/g, ''));
+          }
+      })
+      jsData.table.rows.forEach((main) => {
+          const row = {};
+          colz.forEach((ele, ind) => {
+              row[ele] = (main.c[ind] != null) ? main.c[ind].v : '';
+          })
+          listUnitTT.push(row);
+      })
+      actionLoadListUnit(listUnitLT,listUnitTT);
+  });
+}
+
+function renderDataResultSearch(){
+  let sheetID = getCookie("LS2");
+  let base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;
+  var unitSelected = document.getElementById("select-unit-analysis");
+  var classSelected = document.getElementById("select-class-search");
+  titleUnit = unitSelected.options[unitSelected.selectedIndex].text;
+  titleClass = classSelected.options[classSelected.selectedIndex].text;
+  unitSelected = unitSelected.value;  
+  classSelected = classSelected.value;
+  
+  
+  listDataAnalysis = [];
+  var sheetName = 'Result_All_View';
+  var qu_AllData = 'Select B, C, D, E, F, G, H, I, J WHERE E = \"' + unitSelected + '\" AND D = \"' + classSelected + '\"';
+  var queryAllData = encodeURIComponent(qu_AllData);
+  var urlAllData = `${base}&sheet=${sheetName}&tq=${queryAllData}`;
+  fetch(urlAllData)
+  .then(res => res.text())
+  .then(rep => {                
+      const jsData = JSON.parse(rep.substr(47).slice(0, -2));
+      const colz = [];
+      jsData.table.cols.forEach((heading) => {
+          if (heading.label) {
+              colz.push(heading.label.toLowerCase().replace(/\s/g, ''));
+          }
+      })
+      jsData.table.rows.forEach((main) => {
+          const row = {};
+          colz.forEach((ele, ind) => {
+              row[ele] = (main.c[ind] != null) ? main.c[ind].v : '';
+          })
+          listDataAnalysis.push(row);
+      })
+      renderToTableDataAnalysis(listDataAnalysis);
+  });
+}
+
+function renderToTableDataAnalysis(lstLoadData){
+    rowOfFileCSV = "";
+    fileCSVContent = "data:text/csv;charset=utf-8,";
+    if(lstLoadData.length == 0){
+      document.getElementById("main").innerHTML = "<h2><span style=\"color:blue;font-weight:bold;font-style:italic\">Chưa có dữ liệu!</span></h2>";
+    }
+    else{      
+      //var lstRenderFileCSV = [];
+      //lstRenderFileCSV.push(["STT", "Tên Tài Khoản", "Họ Và Tên", "Ngày Làm Bài", "Giờ Làm Bài", "Thời Gian Làm Bài", "Điểm"]);
+      rowOfFileCSV = "THỐNG KÊ KẾT QUẢ";
+      fileCSVContent += rowOfFileCSV + "\r\n";
+      //Up
+      rowOfFileCSV = "Công Cụ Luyện Thi IC3 GS6 Level 3 - K8";
+      fileCSVContent += rowOfFileCSV + "\r\n";
+      
+      rowOfFileCSV = "Bài: " + titleUnit;
+      fileCSVContent += rowOfFileCSV + "\r\n";
+
+      rowOfFileCSV = "Lớp: " + titleClass;
+      fileCSVContent += rowOfFileCSV + "\r\n";
+     
+      rowOfFileCSV = "STT" + "," + "Tên Tài Khoản" + "," + "Họ Và Tên" + "," + "Ngày Làm Bài" + "," + "Giờ Làm Bài" + "," + "Thời Gian Làm Bài" + "," + "Điểm";
+      fileCSVContent += rowOfFileCSV + "\r\n";
+      var htmlListForm = "";      
+
+      var dateAnalysis = document.getElementById("date_analysis").value;
+      var iCount = 0;
+      
+      if(dateAnalysis == ""){
+        for(var count=0; count<lstLoadData.length; count++){
+            
+            var dDuration = Number(lstLoadData[count]['duration']);
+            var dMinute = Math.floor(dDuration/60);
+            var dSecond = dDuration%60;
+            var strSTime = "";
+            strSTime = lstLoadData[count]['time'];
+            strSTime = strSTime.slice(5,);
+            var yearSTime = Number(strSTime.slice(0,strSTime.search(",")));
+            strSTime = strSTime.slice(strSTime.search(",")+1,);
+            var monthSTime = Number(strSTime.slice(0,strSTime.search(",")));
+            strSTime = strSTime.slice(strSTime.search(",")+1,);
+            var daySTime = Number(strSTime.slice(0,strSTime.search(",")));
+            strSTime = strSTime.slice(strSTime.search(",")+1,);
+            var hourSTime = Number(strSTime.slice(0,strSTime.search(",")));
+            strSTime = strSTime.slice(strSTime.search(",")+1,);
+            var minuteSTime = Number(strSTime.slice(0,strSTime.search(",")));
+            strSTime = strSTime.slice(strSTime.search(",")+1,);
+            var secondSTime = Number(strSTime.slice(0,strSTime.length-1));
+            
+            
+  
+            rowOfFileCSV = (iCount+1).toString() + ","
+                          + lstLoadData[count]['user'] + ","
+                          + lstLoadData[count]['fullname'] + ","
+                          + daySTime + "/" + (monthSTime + 1).toString() + "/" + yearSTime + ","
+                          + hourSTime + ":" + minuteSTime + ":" + secondSTime + ","
+                          + dMinute.toString() + " phút " + dSecond.toString() + " giây" + ","
+                          + lstLoadData[count]['score'];
+            fileCSVContent += rowOfFileCSV + "\r\n";
+  
+            htmlListForm = htmlListForm + "<tr "
+                                        + " class=\"table-row-form-real-estate-CongVu\">"
+                                        + "<td class=\"table-data-form-real-estate-CongVu\">"
+                                        + (iCount+1).toString()
+                                        + "</td>"
+                                        + "<td class=\"table-data-form-real-estate-CongVu\">"
+                                        + lstLoadData[count]['user']
+                                        + "</td>"
+                                        + "<td class=\"table-data-form-real-estate-CongVu\">"
+                                        + lstLoadData[count]['fullname']
+                                        + "</td>"
+                                        + "<td class=\"table-data-form-real-estate-CongVu\">"
+                                        + daySTime + "/" + (monthSTime + 1).toString() + "/" + yearSTime
+                                        + "</td>"
+                                        + "<td class=\"table-data-form-real-estate-CongVu\">"
+                                        + hourSTime + ":" + minuteSTime + ":" + secondSTime
+                                        + "</td>"
+                                        + "<td class=\"table-data-form-real-estate-CongVu\" style=\"text-align:center;\">"
+                                        + dMinute.toString() + " phút " + dSecond.toString() + " giây"
+                                        + "</td>"
+                                        + "<td class=\"table-data-form-real-estate-CongVu\" style=\"font-weight: bold; text-align:center; color:blue;\">"
+                                        + lstLoadData[count]['score']
+                                        + "</td>"
+                                        + "</tr>";
+            iCount = iCount + 1;
+        }
+      }
+      else{
+        var dateAnalysisValue = new Date(dateAnalysis);
+        for(var count=0; count<lstLoadData.length; count++){
+            
+            var dDuration = Number(lstLoadData[count]['duration']);
+            var dMinute = Math.floor(dDuration/60);
+            var dSecond = dDuration%60;
+            var strSTime = "";
+            strSTime = lstLoadData[count]['time'];
+            strSTime = strSTime.slice(5,);
+            var yearSTime = Number(strSTime.slice(0,strSTime.search(",")));
+            strSTime = strSTime.slice(strSTime.search(",")+1,);
+            var monthSTime = Number(strSTime.slice(0,strSTime.search(",")));
+            strSTime = strSTime.slice(strSTime.search(",")+1,);
+            var daySTime = Number(strSTime.slice(0,strSTime.search(",")));
+            strSTime = strSTime.slice(strSTime.search(",")+1,);
+            var hourSTime = Number(strSTime.slice(0,strSTime.search(",")));
+            strSTime = strSTime.slice(strSTime.search(",")+1,);
+            var minuteSTime = Number(strSTime.slice(0,strSTime.search(",")));
+            strSTime = strSTime.slice(strSTime.search(",")+1,);
+            var secondSTime = Number(strSTime.slice(0,strSTime.length-1));
+            
+            if(Number(dateAnalysisValue.getFullYear())==yearSTime
+            && Number(dateAnalysisValue.getMonth())==monthSTime
+            && Number(dateAnalysisValue.getDate())==daySTime){
+  
+                rowOfFileCSV = (iCount+1).toString() + ","
+                            + lstLoadData[count]['user'] + ","
+                            + lstLoadData[count]['fullname'] + ","
+                            + daySTime + "/" + (monthSTime + 1).toString() + "/" + yearSTime + ","
+                            + hourSTime + ":" + minuteSTime + ":" + secondSTime + ","
+                            + dMinute.toString() + " phút " + dSecond.toString() + " giây" + ","
+                            + lstLoadData[count]['score'];
+                fileCSVContent += rowOfFileCSV + "\r\n";
+    
+                htmlListForm = htmlListForm + "<tr "
+                                            + " class=\"table-row-form-real-estate-CongVu\">"
+                                            + "<td class=\"table-data-form-real-estate-CongVu\">"
+                                            + (iCount+1).toString()
+                                            + "</td>"
+                                            + "<td class=\"table-data-form-real-estate-CongVu\">"
+                                            + lstLoadData[count]['user']
+                                            + "</td>"
+                                            + "<td class=\"table-data-form-real-estate-CongVu\">"
+                                            + lstLoadData[count]['fullname']
+                                            + "</td>"
+                                            + "<td class=\"table-data-form-real-estate-CongVu\">"
+                                            + daySTime + "/" + (monthSTime + 1).toString() + "/" + yearSTime
+                                            + "</td>"
+                                            + "<td class=\"table-data-form-real-estate-CongVu\">"
+                                            + hourSTime + ":" + minuteSTime + ":" + secondSTime
+                                            + "</td>"
+                                            + "<td class=\"table-data-form-real-estate-CongVu\" style=\"text-align:center;\">"
+                                            + dMinute.toString() + " phút " + dSecond.toString() + " giây"
+                                            + "</td>"
+                                            + "<td class=\"table-data-form-real-estate-CongVu\" style=\"font-weight: bold; text-align:center; color:blue;\">"
+                                            + lstLoadData[count]['score']
+                                            + "</td>"
+                                            + "</tr>";
+                iCount = iCount + 1;
+            }
+        }
+      }
+      if(htmlListForm != ""){
+        var htmlListFormTmp = "<table class=\"table-form-real-estate-CongVu\">"
+                            + "<tr class=\"table-row-form-real-estate-CongVu\">"
+                            + "<th class=\"table-header-form-real-estate-CongVu\">STT</th>"
+                            + "<th class=\"table-header-form-real-estate-CongVu\">Tên Tài Khoản</th>"
+                            + "<th class=\"table-header-form-real-estate-CongVu\">Họ Và Tên</th>"
+                            + "<th class=\"table-header-form-real-estate-CongVu\">Ngày Làm Bài</th>"
+                            + "<th class=\"table-header-form-real-estate-CongVu\">Giờ Làm Bài</th>"
+                            + "<th class=\"table-header-form-real-estate-CongVu\">Thời Gian Làm Bài</th>"
+                            + "<th class=\"table-header-form-real-estate-CongVu\">Điểm</th>"
+                            + "</tr>";
+        htmlListForm = htmlListFormTmp + htmlListForm;
+      }
+      if(htmlListForm != ""){
+        htmlListForm = htmlListForm + "</table>";      
+        var htmlBtnDowloadCSV = "";      
+        htmlBtnDowloadCSV = "<div class=\"csv_btn\" id=\"csv_btn\">"
+                            + "<button class=\"btn-csv\" onclick=\"downloadListResultSearchCSV()\"><b>Tải File CSV</b></button>"
+                            + "</div>";
+        htmlListForm = htmlBtnDowloadCSV + htmlListForm;
+        document.getElementById("main").innerHTML = htmlListForm;
+      }
+      else{
+        document.getElementById("main").innerHTML = "<h2><span style=\"color:blue;font-weight:bold;font-style:italic\">Chưa có dữ liệu!</span></h2>";
+      }
+      
+    }
+  }
+
+function downloadListResultSearchCSV(){
+    var encodedUri = encodeURI(fileCSVContent);
+    window.open(encodedUri);
+}
+
+function checkCookie() {
+    let sheetID = getCookie("LS2");
+    let base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;
+    let ur = getCookie("usr");
+    var sheetName = 'LogIn3';
+    var qu_AllData = 'Select A, D, I WHERE A = \"' + ur + '\"';
+    var queryAllData = encodeURIComponent(qu_AllData);
+    var urlAllData = `${base}&sheet=${sheetName}&tq=${queryAllData}`;
+    fetch(urlAllData)
+    .then(res => res.text())
+    .then(rep => {                
+        const jsData = JSON.parse(rep.substr(47).slice(0, -2));
+        const colz = [];
+        jsData.table.cols.forEach((heading) => {
+            if (heading.label) {
+                colz.push(heading.label.toLowerCase().replace(/\s/g, ''));
+            }
+        })
+        
+        jsData.table.rows.forEach((main) => {
+            const row = {};
+            colz.forEach((ele, ind) => {
+                row[ele] = (main.c[ind] != null) ? main.c[ind].v : '';
+            })
+            data1 = Object.keys(row).map((key) => [key, row[key]]);
+            user1 = data1[0][1].toString();
+            end_time1 = data1[1][1].toString();
+            setCookie("usr", data1[0][1].toString(), 8);
+            setCookie("nameUsr",data1[2][1].toString(),8);
+            checkLogIn1(ur);
+            checkRow1 = true;
+        })
+        if(checkRow1 == false){
+            checkLogIn1(ur);
+        }
+    })
+}
+
+function checkLogIn1(ur){
+    var currentDate = new Date();
+    if(user1 == ur){
+        if(currentDate.getUTCFullYear() > Number(end_time1.slice(5,9))){
+            backToLogInPage();
+        }
+        else if(currentDate.getUTCFullYear() == Number(end_time1.slice(5,9))){
+            var strMonth_Day_Tmp = end_time1.slice(end_time1.indexOf(",")+1,end_time1.length-1);
+            var strMonth = strMonth_Day_Tmp.slice(0,strMonth_Day_Tmp.indexOf(","));
+            if(currentDate.getUTCMonth() > Number(strMonth)){
+                backToLogInPage();
+            }
+            else if(currentDate.getUTCMonth() == Number(strMonth)){
+                var strDay = strMonth_Day_Tmp.slice(strMonth_Day_Tmp.indexOf(",")+1,strMonth_Day_Tmp.length);
+                if(currentDate.getUTCDate() > Number(strDay)){
+                    backToLogInPage();
+                }
+                else{
+                    return;
+                }
+            }
+            else{
+                return;
+            }
+        }
+        else{
+            return;
+        }  
+    }
+    else{
+        backToLogInPage();
+    }
+}
+
+function backToLogInPage(){
+    alert("Bạn cần đăng nhập lại để tiếp tục!");
+    window.location.href = linkHomePage;
+}
+
+function getCookie(cname) {
+    let name = cname + "=";
+    let decodedCookie = decodeURIComponent(document.cookie);
+    let ca = decodedCookie.split(';');
+    for(let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+}
+
+function setCookie(cname,cvalue,exhours) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exhours*60*60*1000));
+  let expires = "expires=" + d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  // document.cookie = courseName + "=" + courseValue + ";" + expires + ";path=/";
+  // document.cookie = achievementsOfUserName + "=" + achievementsOfUserValue + ";" + expires + ";path=/";
+  
+}
+
+function logOut(){   
+    var htmlLogOut = "";
+    htmlLogOut = "<div><button class=\"btn-log-out\" onclick=\"actionLogOut()\"><b>Đăng Xuất</b></button></div>"
+                    
+    document.getElementById("log_out").innerHTML = htmlLogOut;
+}
+
+function btnSearch(){
+    var htmlBtnSearch = "";
+    htmlBtnSearch = "<button class=\"btn-search\" onclick=\"renderDataResultSearch()\"><b>Tìm Kiếm</b></button>";
+                    
+    document.getElementById("search_btn").innerHTML = htmlBtnSearch;
+}
+
+function actionBtnSearch(){
+
+}
+
+function actionLogOut(){
+    document.cookie = 'usr=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    document.cookie = 'nameUsr=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    document.cookie = 'ID=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    document.cookie = 'STime=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    window.location.href = linkHomePage;
+}
